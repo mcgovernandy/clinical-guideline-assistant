@@ -1,0 +1,195 @@
+{
+  "app_name": "Sally",
+  "assistant_codename": "SAL 9000",
+  "vector_stores": {
+    "local": {
+      "vector_store_id": "vs_69b485ed967881919334f0441151a5a9",
+      "name": "Sally Guidelines - Local",
+      "file_count": 10,
+      "files": [
+        {
+          "filename": "adult_type1diabetes_outpatient_management_guideline_v1.0.docx",
+          "title": "Adult Type 1 Diabetes OutpatientManagement Guideline",
+          "guideline_level": "local",
+          "approval_date": "01/01/2026",
+          "review_date": "01/01/2027",
+          "owner": "Diabetes MDT",
+          "openai_file_id": "file-L7ZUbSsDUfQNrSPAarPk6n"
+        },
+        {
+          "filename": "diabetes_in_pregnancy.pdf",
+          "title": "Diabetes in Pregnancy",
+          "guideline_level": "local",
+          "approval_date": "10/04/2024",
+          "review_date": "12/11/2026",
+          "owner": "Maternity Guideline Group",
+          "openai_file_id": "file-UBLV6vBMomS7kusJzGgjx9"
+        },
+        {
+          "filename": "diabetes_inpatient_guideline_for_peri-operative_management_of_diabetes.docx",
+          "title": "Peri-operative Management of Diabetes",
+          "guideline_level": "local",
+          "approval_date": "18/03/2024",
+          "review_date": "01/01/2027",
+          "owner": "MDEC Specialist Governance Group",
+          "openai_file_id": "file-5wpCSPsRgCimQYZmZbVkST"
+        },
+        {
+          "filename": "diabetes_in_pregnancy_antenatal_care_guideline.pdf",
+          "title": "Diabetes in Pregnancy - Antenatal Care",
+          "guideline_level": "local",
+          "approval_date": "01/06/2024",
+          "review_date": "04/04/2025",
+          "owner": "Maternity Guideline Group",
+          "openai_file_id": "file-4WQFmjUdPCjh77avJw4N3L"
+        },
+        {
+          "filename": "diabetes_in_pregnancy_labour_and_puerperium_v3.2.pdf",
+          "title": "Diabetes in Labour and the Postnatal Period",
+          "guideline_level": "local",
+          "approval_date": "14/08/2025",
+          "review_date": "09/01/2030",
+          "owner": "Maternity Guideline Group",
+          "openai_file_id": "file-Pp3PGSAtaBEAt4AEJ3hYfb"
+        },
+        {
+          "filename": "Acute-heart-Failure-Guideline-V1.0.pdf",
+          "title": "Acute heart Failure Guideline V1.0",
+          "guideline_level": "local",
+          "approval_date": "01/06/2020",
+          "review_date": "01/06/2023",
+          "owner": "Cardiology",
+          "openai_file_id": "file-AEciEqExH2WZ6VR5NERS6N"
+        },
+        {
+          "filename": "Clinical-Guideline---Emergency-Management-of-Hyperkalaemia-in-Adults.pdf",
+          "title": "Emergency Management of Hyperkalaemia in Adults",
+          "guideline_level": "local",
+          "approval_date": "01/10/2023",
+          "review_date": "01/12/2027",
+          "owner": "Renal",
+          "openai_file_id": "file-6RZKW7jiCFqdiUSm31n1sd"
+        },
+        {
+          "filename": "Clinical-Guideline-for-Rapid-optimisation-of-Guideline-Directed-Medical-Therapies-in-HFrEF-Approved-Nov-2024.docx",
+          "title": "Rapid optimisation of Guideline Directed Medical Therapies in Heart Failure with Reduced Ejection Fraction",
+          "guideline_level": "local",
+          "approval_date": "27/11/2024",
+          "review_date": "27/11/2027",
+          "owner": "Cardiology",
+          "openai_file_id": "file-3qJZT5cT1UuR51hxNxZ7s2"
+        },
+        {
+          "filename": "The-management-of-new-onset-AF-and-AFI.pdf",
+          "title": "The management of new onset Atrial Fibrillation (AF) & Atrial Flutter (AFl)",
+          "guideline_level": "local",
+          "approval_date": "18/08/2022",
+          "review_date": "01/06/2022",
+          "owner": "CEC",
+          "openai_file_id": "file-MY55heHULUXEzJ53XC3FpY"
+        },
+        {
+          "filename": "Clinical-Guideline---Hypertensive-Urgency-and-Emergency-Guideline---AMUSDEC.pdf",
+          "title": "Hypertensive Urgency and Emergency Guideline",
+          "guideline_level": "local",
+          "approval_date": "24/11/2023",
+          "review_date": "01/06/2028",
+          "owner": "AMU Governance",
+          "openai_file_id": "file-KuiMHsMKnMjKHZgSysGM2G"
+        }
+      ]
+    }
+  },
+  "uploaded_files": [
+    {
+      "filename": "adult_type1diabetes_outpatient_management_guideline_v1.0.docx",
+      "title": "Adult Type 1 Diabetes OutpatientManagement Guideline",
+      "guideline_level": "local",
+      "approval_date": "01/01/2026",
+      "review_date": "01/01/2027",
+      "owner": "Diabetes MDT",
+      "openai_file_id": "file-L7ZUbSsDUfQNrSPAarPk6n"
+    },
+    {
+      "filename": "diabetes_in_pregnancy.pdf",
+      "title": "Diabetes in Pregnancy",
+      "guideline_level": "local",
+      "approval_date": "10/04/2024",
+      "review_date": "12/11/2026",
+      "owner": "Maternity Guideline Group",
+      "openai_file_id": "file-UBLV6vBMomS7kusJzGgjx9"
+    },
+    {
+      "filename": "diabetes_inpatient_guideline_for_peri-operative_management_of_diabetes.docx",
+      "title": "Peri-operative Management of Diabetes",
+      "guideline_level": "local",
+      "approval_date": "18/03/2024",
+      "review_date": "01/01/2027",
+      "owner": "MDEC Specialist Governance Group",
+      "openai_file_id": "file-5wpCSPsRgCimQYZmZbVkST"
+    },
+    {
+      "filename": "diabetes_in_pregnancy_antenatal_care_guideline.pdf",
+      "title": "Diabetes in Pregnancy - Antenatal Care",
+      "guideline_level": "local",
+      "approval_date": "01/06/2024",
+      "review_date": "04/04/2025",
+      "owner": "Maternity Guideline Group",
+      "openai_file_id": "file-4WQFmjUdPCjh77avJw4N3L"
+    },
+    {
+      "filename": "diabetes_in_pregnancy_labour_and_puerperium_v3.2.pdf",
+      "title": "Diabetes in Labour and the Postnatal Period",
+      "guideline_level": "local",
+      "approval_date": "14/08/2025",
+      "review_date": "09/01/2030",
+      "owner": "Maternity Guideline Group",
+      "openai_file_id": "file-Pp3PGSAtaBEAt4AEJ3hYfb"
+    },
+    {
+      "filename": "Acute-heart-Failure-Guideline-V1.0.pdf",
+      "title": "Acute heart Failure Guideline V1.0",
+      "guideline_level": "local",
+      "approval_date": "01/06/2020",
+      "review_date": "01/06/2023",
+      "owner": "Cardiology",
+      "openai_file_id": "file-AEciEqExH2WZ6VR5NERS6N"
+    },
+    {
+      "filename": "Clinical-Guideline---Emergency-Management-of-Hyperkalaemia-in-Adults.pdf",
+      "title": "Emergency Management of Hyperkalaemia in Adults",
+      "guideline_level": "local",
+      "approval_date": "01/10/2023",
+      "review_date": "01/12/2027",
+      "owner": "Renal",
+      "openai_file_id": "file-6RZKW7jiCFqdiUSm31n1sd"
+    },
+    {
+      "filename": "Clinical-Guideline-for-Rapid-optimisation-of-Guideline-Directed-Medical-Therapies-in-HFrEF-Approved-Nov-2024.docx",
+      "title": "Rapid optimisation of Guideline Directed Medical Therapies in Heart Failure with Reduced Ejection Fraction",
+      "guideline_level": "local",
+      "approval_date": "27/11/2024",
+      "review_date": "27/11/2027",
+      "owner": "Cardiology",
+      "openai_file_id": "file-3qJZT5cT1UuR51hxNxZ7s2"
+    },
+    {
+      "filename": "The-management-of-new-onset-AF-and-AFI.pdf",
+      "title": "The management of new onset Atrial Fibrillation (AF) & Atrial Flutter (AFl)",
+      "guideline_level": "local",
+      "approval_date": "18/08/2022",
+      "review_date": "01/06/2022",
+      "owner": "CEC",
+      "openai_file_id": "file-MY55heHULUXEzJ53XC3FpY"
+    },
+    {
+      "filename": "Clinical-Guideline---Hypertensive-Urgency-and-Emergency-Guideline---AMUSDEC.pdf",
+      "title": "Hypertensive Urgency and Emergency Guideline",
+      "guideline_level": "local",
+      "approval_date": "24/11/2023",
+      "review_date": "01/06/2028",
+      "owner": "AMU Governance",
+      "openai_file_id": "file-KuiMHsMKnMjKHZgSysGM2G"
+    }
+  ]
+}

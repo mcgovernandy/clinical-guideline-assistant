@@ -1,0 +1,23 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="84" fill="#0B172A"/>
+  <circle cx="256" cy="256" r="140" fill="url(#lensGlow)"/>
+  <circle cx="256" cy="256" r="126" stroke="#4DA3FF" stroke-width="18"/>
+  <circle cx="256" cy="256" r="92" fill="url(#redLens)"/>
+  <circle cx="232" cy="228" r="30" fill="#FFD0D0" fill-opacity="0.62"/>
+  <path d="M256 105C318 105 374 143 401 202C376 154 321 122 259 122C190 122 131 161 108 220C132 153 189 105 256 105Z" fill="#7DD3FC" fill-opacity="0.35"/>
+  <text x="256" y="430" text-anchor="middle" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Sally</text>
+  <text x="256" y="468" text-anchor="middle" fill="#93C5FD" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600">SAL 9000</text>
+  <defs>
+    <radialGradient id="redLens" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 256) rotate(90) scale(92)">
+      <stop offset="0" stop-color="#FFB3B3"/>
+      <stop offset="0.32" stop-color="#FB7185"/>
+      <stop offset="0.62" stop-color="#DC2626"/>
+      <stop offset="1" stop-color="#3F0B0B"/>
+    </radialGradient>
+    <radialGradient id="lensGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 256) rotate(90) scale(140)">
+      <stop offset="0.58" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.82" stop-color="#EF4444" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

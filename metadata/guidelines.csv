@@ -1,6 +1,54 @@
-filename,title,specialty,status,version,approval_date,review_date,owner
-adult_type1diabetes_outpatient_management_guideline_v1.0.docx,Adult Type 1 Diabetes OutpatientManagement Guideline,Diabetes,Approved,1.0,2026-01-01,2027-01-01,Diabetes MDT
-diabetes_in_pregnancy.pdf,Diabetes in Pregnancy,Diabetes,Approved,1.0,2024-04-10,2026-11-12,Maternity Guideline Group
-diabetes_inpatient_guideline_for_peri-operative_management_of_diabetes.docx,Peri-operative Management of Diabetes,Diabetes,Approved,1.1,2024-03-18,2027-01-01,MDEC Specialist Governance Group
-diabetes_in_pregnancy_antenatal_care_guideline.pdf,Diabetes in Pregnancy - Antenatal Care,Diabetes in Pregnancy,Approved,1.0,2024-06-01,2025-04-04,Maternity Guideline Group
-diabetes_in_pregnancy_labour_and_puerperium_v3.2.pdf,Diabetes in Labour and the Postnatal Period,Diabetes in Pregnancy,Approved,3.2,2025-08-14,2030-01-09,Maternity Guideline Group
+filename,title,specialty,status,version,approval_date,review_date,owner,guideline_level
+adult_type1diabetes_outpatient_management_guideline_v1.0.docx,Adult Type 1 Diabetes OutpatientManagement Guideline,Diabetes,Approved,1.0,01/01/2026,01/01/2027,Diabetes MDT,local
+diabetes_in_pregnancy.pdf,Diabetes in Pregnancy,Diabetes,Approved,1.0,10/04/2024,12/11/2026,Maternity Guideline Group,local
+diabetes_inpatient_guideline_for_peri-operative_management_of_diabetes.docx,Peri-operative Management of Diabetes,Diabetes,Approved,1.1,18/03/2024,01/01/2027,MDEC Specialist Governance Group,local
+diabetes_in_pregnancy_antenatal_care_guideline.pdf,Diabetes in Pregnancy - Antenatal Care,Diabetes in Pregnancy,Approved,1.0,01/06/2024,04/04/2025,Maternity Guideline Group,local
+diabetes_in_pregnancy_labour_and_puerperium_v3.2.pdf,Diabetes in Labour and the Postnatal Period,Diabetes in Pregnancy,Approved,3.2,14/08/2025,09/01/2030,Maternity Guideline Group,local
+Acute-heart-Failure-Guideline-V1.0.pdf,Acute heart Failure Guideline V1.0,Cardiology,Approved,1.0,01/06/2020,01/06/2023,Cardiology,local
+Clinical-Guideline---Emergency-Management-of-Hyperkalaemia-in-Adults.pdf,Emergency Management of Hyperkalaemia in Adults,Renal,Approved,1.0,01/10/2023,01/12/2027,Renal,local
+Clinical-Guideline-for-Rapid-optimisation-of-Guideline-Directed-Medical-Therapies-in-HFrEF-Approved-Nov-2024.docx,Rapid optimisation of Guideline Directed Medical Therapies in Heart Failure with Reduced Ejection Fraction,Cardiology,Approved,1.0,27/11/2024,27/11/2027,Cardiology,local
+The-management-of-new-onset-AF-and-AFI.pdf,The management of new onset Atrial Fibrillation (AF) & Atrial Flutter (AFl),Cardiology,Approved,1.0,18/08/2022,01/06/2022,CEC,local
+Clinical-Guideline---Hypertensive-Urgency-and-Emergency-Guideline---AMUSDEC.pdf,Hypertensive Urgency and Emergency Guideline,Acute Medicine,Approved,1.0,24/11/2023,01/06/2028,AMU Governance,local
+NICE_NG3_Diabetes_in_pregnancy.pdf,Diabetes in pregnancy: management from preconception to the postnatal period,Diabetes in Pregnancy,Published,,25/02/2015,16/12/2020,NICE,national
+NICE_NG17_Type_1_diabetes_in_adults.pdf,Type 1 diabetes in adults: diagnosis and management,Diabetes,Published,,26/08/2015,17/08/2022,NICE,national
+NICE_NG18_Diabetes_in_children_and_young_people.pdf,Diabetes (type 1 and type 2) in children and young people: diagnosis and management,Paediatric Diabetes,Published,,01/08/2015,11/05/2023,NICE,national
+NICE_NG19_Diabetic_foot_problems.pdf,Diabetic foot problems: prevention and management,Diabetes,Published,,26/08/2015,03/07/2025,NICE,national
+NICE_NG28_Type_2_diabetes_in_adults.pdf,Type 2 diabetes in adults: management,Diabetes,Published,,02/12/2015,18/02/2026,NICE,national
+NICE_NG242_Diabetic_retinopathy.pdf,Diabetic retinopathy: management and monitoring,Ophthalmology,Published,,13/08/2024,13/08/2024,NICE,national
+NICE_PH38_Type_2_diabetes_prevention_high_risk.pdf,Type 2 diabetes: prevention in people at high risk,Diabetes Prevention,Published,,12/07/2012,15/09/2017,NICE,national
+NICE_TA151_Insulin_pump_therapy_for_diabetes.pdf,Insulin pump therapy for diabetes,Diabetes,Published,,23/07/2008,22/06/2016,NICE,national
+NICE_TA943_Hybrid_closed_loop_systems_type_1_diabetes.pdf,Hybrid closed loop systems for managing blood glucose levels in type 1 diabetes,Diabetes,Published,,19/12/2023,19/12/2023,NICE,national
+NICE_TA274_Ranibizumab_diabetic_macular_oedema.pdf,Ranibizumab for treating diabetic macular oedema,Diabetes,Published,,27/02/2013,26/10/2023,NICE,national
+NICE_TA346_Aflibercept_diabetic_macular_oedema.pdf,Aflibercept for treating diabetic macular oedema,Diabetes,Published,,22/07/2015,27/07/2018,NICE,national
+NICE_TA799_Faricimab_diabetic_macular_oedema.pdf,Faricimab for treating diabetic macular oedema,Diabetes,Published,,29/06/2022,29/06/2022,NICE,national
+NICE_TA820_Brolucizumab_diabetic_macular_oedema.pdf,Brolucizumab for treating diabetic macular oedema,Diabetes,Published,,31/08/2022,31/08/2022,NICE,national
+NICE_TA824_Dexamethasone_intravitreal_implant_diabetic_macular_oedema.pdf,Dexamethasone intravitreal implant for treating diabetic macular oedema,Diabetes,Published,,14/09/2022,14/09/2022,NICE,national
+NICE_TA953_Fluocinolone_acetonide_implant_chronic_diabetic_macular_oedema.pdf,Fluocinolone acetonide intravitreal implant for treating chronic diabetic macular oedema,Diabetes,Published,,13/03/2024,13/03/2024,NICE,national
+ABCD_Standards_of_care_adults_type_1_diabetes.pdf,Standards of care for management of adults with type 1 diabetes,Diabetes,Published,,,,ABCD,national
+ABCD_SGLT2_inhibitors_type_2_diabetes.pdf,SGLT-2 inhibitors in type 2 diabetes,Diabetes,Published,,,,ABCD,national
+ABCD_Position_statement_frailty_older_adults_diabetes.pdf,Managing frailty and associated comorbidities in older adults with diabetes,Diabetes,Published,,,,ABCD,national
+ABCD_Management_of_hyperglycaemia_in_adults_with_DKD.pdf,Management of hyperglycaemia in adults with diabetic kidney disease,Diabetes,Published,,,,ABCD,national
+ABCD_Glycaemic_assessment_diabetes_haemodialysis.pdf,Standards of care for glycaemic assessment in people with diabetes on haemodialysis,Diabetes,Published,,,,ABCD / Renal Association,national
+ABCD_PCDS_Remission_of_type_2_diabetes_position_statement.pdf,Remission of type 2 diabetes: a position statement from ABCD and PCDS,Diabetes,Published,,,,ABCD / PCDS,national
+DTN_UK_ABCD_Using_diabetes_technology_in_pregnancy.pdf,Using diabetes technology in pregnancy,Diabetes,Published,,,,DTN-UK / ABCD,national
+JBDS_02_Diabetic_ketoacidosis_in_adults.pdf,The management of diabetic ketoacidosis in adults,Diabetes,Published,,,,JBDS,national
+JBDS_03_Diabetes_undergoing_surgery_CPOC.pdf,Management of adults with diabetes undergoing surgery and elective procedures: improving standards,Diabetes,Published,,19/12/2022,,JBDS / CPOC,national
+JBDS_06_HHS_in_adults.pdf,The management of hyperosmolar hyperglycaemic state in adults with diabetes,Diabetes,Published,,,,JBDS,national
+JBDS_08_Steroid_hyperglycaemia.pdf,Management of hyperglycaemia and steroid (glucocorticoid) therapy,Diabetes,Published,,17/01/2023,,JBDS,national
+JBDS_11_Adults_with_diabetes_on_dialysis.pdf,Management of adults with diabetes on dialysis,Diabetes,Published,,,,JBDS,national
+JBDS_12_Diabetes_hyperglycaemia_during_labour_and_birth.pdf,Managing diabetes and hyperglycaemia during labour and birth,Diabetes,Published,,,,JBDS,national
+JBDS_15_Inpatient_frail_older_adult_with_diabetes.pdf,Inpatient care of the frail older adult with diabetes,Diabetes,Published,,,,JBDS,national
+JBDS_16_Diabetes_at_the_front_door.pdf,Diabetes at the Front Door,Diabetes,Published,,,,JBDS,national
+ADA_2026_Standards_Diagnosis_and_classification_of_diabetes.pdf,Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2026,Diabetes,Published,,08/12/2025,08/12/2025,ADA,international
+ADA_2026_Standards_Diabetes_technology.pdf,Diabetes Technology: Standards of Care in Diabetes—2026,Diabetes,Published,,08/12/2025,08/12/2025,ADA,international
+ADA_2026_Standards_Pharmacologic_approaches_to_glycemic_treatment.pdf,Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2026,Diabetes,Published,,08/12/2025,08/12/2025,ADA,international
+ADA_2026_Standards_Retinopathy_neuropathy_and_foot_care.pdf,"Retinopathy, Neuropathy, and Foot Care: Standards of Care in Diabetes—2026",Diabetes,Published,,08/12/2025,08/12/2025,ADA,international
+ADA_2026_Standards_Diabetes_in_pregnancy.pdf,Management of Diabetes in Pregnancy: Standards of Care in Diabetes—2026,Diabetes,Published,,08/12/2025,08/12/2025,ADA,international
+ADA_2026_Standards_Diabetes_care_in_the_hospital.pdf,Diabetes Care in the Hospital: Standards of Care in Diabetes—2026,Diabetes,Published,,08/12/2025,08/12/2025,ADA,international
+ADA_EASD_2022_Management_of_hyperglycaemia_type_2_diabetes.pdf,"Management of Hyperglycemia in Type 2 Diabetes, 2022: a consensus report by the ADA and EASD",Diabetes,Published,,01/11/2022,,ADA / EASD,international
+ADA_EASD_2021_Management_of_type_1_diabetes_in_adults.pdf,The Management of Type 1 Diabetes in Adults: a consensus report by the ADA and EASD,Diabetes,Published,,,,ADA / EASD,international
+ADA_EASD_2022_Automated_insulin_delivery.pdf,"Automated Insulin Delivery: Benefits, Challenges, and Recommendations: a consensus report",Diabetes,Published,,,,ADA / EASD,international
+ADA_EASD_2024_Hyperglycemic_crises_in_adults.pdf,Hyperglycemic Crises in Adults With Diabetes: a consensus report,Diabetes,Published,,22/06/2024,,ADA / EASD,international
+ADA_EASD_2021_Remission_type_2_diabetes.pdf,Definition and Interpretation of Remission in Type 2 Diabetes: a consensus report,Diabetes,Published,,30/08/2021,,ADA / EASD,international
+IDF_2025_Global_clinical_practice_recommendations_type_2_diabetes.pdf,IDF Global Clinical Practice Recommendations for Managing Type 2 Diabetes – 2025,Diabetes,Published,,,,IDF,international
+WHO_HEARTS_D_Diagnosis_and_management_of_type_2_diabetes.pdf,Diagnosis and management of type 2 diabetes (HEARTS-D),Diabetes,Published,,,,WHO,international

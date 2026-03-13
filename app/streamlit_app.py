@@ -412,15 +412,16 @@ st.markdown(
         border: 4px solid #60a5fa;
     }
     .recommendation-card {
-        background: #ffffff;
-        border: 1px solid #dbe4f0;
+        background: #0f172a;
+        color: #e5e7eb;
+        border: 1px solid #1e293b;
         border-radius: 14px;
         padding: 0.9rem 1rem;
         margin-bottom: 0.8rem;
-        box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+        box-shadow: 0 2px 8px rgba(15, 23, 42, 0.18);
     }
     .quote-context {
-        background: #f8fafc;
+        background: #111827;
         border-left: 3px solid #60a5fa;
         padding: 0.6rem 0.8rem;
         margin: 0.35rem 0 0.6rem 0;
@@ -431,18 +432,19 @@ st.markdown(
         color: #94a3b8;
     }
     .quote-highlight {
-        color: #0f172a;
+        color: #f8fafc;
         font-weight: 600;
     }
     .citation-card {
-        background: #f8fafc;
-        border: 1px solid #dbe4f0;
+        background: #0b1220;
+        color: #e5e7eb;
+        border: 1px solid #1e293b;
         border-radius: 12px;
         padding: 0.85rem 0.95rem;
         margin-bottom: 0.8rem;
     }
     .disclaimer {
-        background: #fff7ed;
+        background: #0b1220;
         border: 1px solid #fdba74;
         border-radius: 14px;
         padding: 0.9rem 1rem;

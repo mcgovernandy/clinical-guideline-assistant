@@ -1,23 +1,134 @@
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="512" height="512" rx="84" fill="#0B172A"/>
-  <circle cx="256" cy="256" r="140" fill="url(#lensGlow)"/>
-  <circle cx="256" cy="256" r="126" stroke="#4DA3FF" stroke-width="18"/>
-  <circle cx="256" cy="256" r="92" fill="url(#redLens)"/>
-  <circle cx="232" cy="228" r="30" fill="#FFD0D0" fill-opacity="0.62"/>
-  <path d="M256 105C318 105 374 143 401 202C376 154 321 122 259 122C190 122 131 161 108 220C132 153 189 105 256 105Z" fill="#7DD3FC" fill-opacity="0.35"/>
-  <text x="256" y="430" text-anchor="middle" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Sally</text>
-  <text x="256" y="468" text-anchor="middle" fill="#93C5FD" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600">SAL 9000</text>
-  <defs>
-    <radialGradient id="redLens" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 256) rotate(90) scale(92)">
-      <stop offset="0" stop-color="#FFB3B3"/>
-      <stop offset="0.32" stop-color="#FB7185"/>
-      <stop offset="0.62" stop-color="#DC2626"/>
-      <stop offset="1" stop-color="#3F0B0B"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="135.46666mm"
+   height="135.46666mm"
+   viewBox="0 0 135.46666 135.46666"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="sally_sal9000_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.80087682"
+     inkscape:cx="396.44049"
+     inkscape:cy="309.03629"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <radialGradient
+       id="redLens"
+       cx="0"
+       cy="0"
+       r="1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,24.341666,-24.341666,0,67.72525,134.4594)">
+      <stop
+         offset="0"
+         stop-color="#FFB3B3"
+         id="stop840" />
+      <stop
+         offset="0.32"
+         stop-color="#FB7185"
+         id="stop842" />
+      <stop
+         offset="0.62"
+         stop-color="#DC2626"
+         id="stop844" />
+      <stop
+         offset="1"
+         stop-color="#3F0B0B"
+         id="stop846" />
     </radialGradient>
-    <radialGradient id="lensGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 256) rotate(90) scale(140)">
-      <stop offset="0.58" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="0.82" stop-color="#EF4444" stop-opacity="0.26"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    <radialGradient
+       id="lensGlow"
+       cx="0"
+       cy="0"
+       r="1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,37.041666,-37.041666,0,67.72525,134.4594)">
+      <stop
+         offset="0.58"
+         stop-color="#000000"
+         stop-opacity="0"
+         id="stop849" />
+      <stop
+         offset="0.82"
+         stop-color="#EF4444"
+         stop-opacity="0.26"
+         id="stop851" />
+      <stop
+         offset="1"
+         stop-color="#000000"
+         stop-opacity="0"
+         id="stop853" />
     </radialGradient>
   </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.0080822,-66.726067)">
+    <rect
+       width="135.46666"
+       height="135.46666"
+       rx="22.225"
+       fill="#0b172a"
+       id="rect824"
+       x="-0.0080821998"
+       y="66.726067"
+       style="stroke-width:0.264583" />
+    <circle
+       cx="67.72525"
+       cy="134.4594"
+       r="37.041668"
+       fill="url(#lensGlow)"
+       id="circle826"
+       style="fill:url(#lensGlow);stroke-width:0.264583" />
+    <circle
+       cx="67.560066"
+       cy="134.62457"
+       stroke="#4da3ff"
+       stroke-width="5.79765"
+       id="circle828"
+       style="fill:none"
+       r="40.583549" />
+    <circle
+       cx="67.72525"
+       cy="134.4594"
+       r="24.341667"
+       fill="url(#redLens)"
+       id="circle830"
+       style="fill:url(#redLens);stroke-width:0.264583" />
+    <circle
+       cx="61.375252"
+       cy="127.05106"
+       r="7.9375"
+       fill="#ffd0d0"
+       fill-opacity="0.62"
+       id="circle832"
+       style="stroke-width:0.264583" />
+  </g>
 </svg>

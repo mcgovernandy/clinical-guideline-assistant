@@ -3,63 +3,27 @@
   "assistant_codename": "SAL 9000",
   "vector_stores": {
     "local": {
-      "vector_store_id": "vs_69b492928c4c81918224b35e8f78fd35",
+      "vector_store_id": "vs_69b5d569c5c88191aaa4bb220c9e84f2",
       "name": "Sally Guidelines - Local",
       "file_count": 10,
       "files": [
-        {
-          "filename": "adult_type1diabetes_outpatient_management_guideline_v1.0.docx",
-          "title": "Adult Type 1 Diabetes OutpatientManagement Guideline",
-          "guideline_level": "local",
-          "approval_date": "01/01/2026",
-          "review_date": "01/01/2027",
-          "owner": "Diabetes MDT",
-          "openai_file_id": "file-XjvRuenLSeRT6yxEYcwqVZ"
-        },
-        {
-          "filename": "diabetes_in_pregnancy.pdf",
-          "title": "Diabetes in Pregnancy",
-          "guideline_level": "local",
-          "approval_date": "10/04/2024",
-          "review_date": "12/11/2026",
-          "owner": "Maternity Guideline Group",
-          "openai_file_id": "file-YP7gogFB2NWdhUjWUPd6hy"
-        },
-        {
-          "filename": "diabetes_inpatient_guideline_for_peri-operative_management_of_diabetes.docx",
-          "title": "Peri-operative Management of Diabetes",
-          "guideline_level": "local",
-          "approval_date": "18/03/2024",
-          "review_date": "01/01/2027",
-          "owner": "MDEC Specialist Governance Group",
-          "openai_file_id": "file-8wCH8cntEGyzckFkiowhuD"
-        },
-        {
-          "filename": "diabetes_in_pregnancy_antenatal_care_guideline.pdf",
-          "title": "Diabetes in Pregnancy - Antenatal Care",
-          "guideline_level": "local",
-          "approval_date": "01/06/2024",
-          "review_date": "04/04/2025",
-          "owner": "Maternity Guideline Group",
-          "openai_file_id": "file-Qoam8zrFJ7p4hm8GXHpmu9"
-        },
-        {
-          "filename": "diabetes_in_pregnancy_labour_and_puerperium_v3.2.pdf",
-          "title": "Diabetes in Labour and the Postnatal Period",
-          "guideline_level": "local",
-          "approval_date": "14/08/2025",
-          "review_date": "09/01/2030",
-          "owner": "Maternity Guideline Group",
-          "openai_file_id": "file-3SRh3qmHmhdkiBcbiu9M2n"
-        },
         {
           "filename": "Acute-heart-Failure-Guideline-V1.0.pdf",
           "title": "Acute heart Failure Guideline V1.0",
           "guideline_level": "local",
           "approval_date": "01/06/2020",
           "review_date": "01/06/2023",
-          "owner": "Cardiology",
-          "openai_file_id": "file-QhyrtgQA2Y95VzMLFCS5HA"
+          "owner": "RDUH",
+          "openai_file_id": "file-8z5bF6q4VfFaLCE1k7CgpH"
+        },
+        {
+          "filename": "adult_type1diabetes_outpatient_management_guideline_v1.0.docx",
+          "title": "Adult Type 1 Diabetes Outpatient Management Guideline",
+          "guideline_level": "local",
+          "approval_date": "01/01/2026",
+          "review_date": "01/01/2027",
+          "owner": "RDUH",
+          "openai_file_id": "file-ChErFYd1nnv9AfffJA7Mkf"
         },
         {
           "filename": "Clinical-Guideline---Emergency-Management-of-Hyperkalaemia-in-Adults.pdf",
@@ -67,8 +31,8 @@
           "guideline_level": "local",
           "approval_date": "01/10/2023",
           "review_date": "01/12/2027",
-          "owner": "Renal",
-          "openai_file_id": "file-DAyn6R6KduYPRR68AWUacG"
+          "owner": "RDUH",
+          "openai_file_id": "file-CZ9aMzkvhYFja5hmH7c23W"
         },
         {
           "filename": "Clinical-Guideline-for-Rapid-optimisation-of-Guideline-Directed-Medical-Therapies-in-HFrEF-Approved-Nov-2024.docx",
@@ -76,17 +40,8 @@
           "guideline_level": "local",
           "approval_date": "27/11/2024",
           "review_date": "27/11/2027",
-          "owner": "Cardiology",
-          "openai_file_id": "file-3u7J3F4WStgSQcubg4FpuX"
-        },
-        {
-          "filename": "The-management-of-new-onset-AF-and-AFI.pdf",
-          "title": "The management of new onset Atrial Fibrillation (AF) & Atrial Flutter (AFl)",
-          "guideline_level": "local",
-          "approval_date": "18/08/2022",
-          "review_date": "01/06/2022",
-          "owner": "CEC",
-          "openai_file_id": "file-3DiUgnE2KteZeQZ22LSNfo"
+          "owner": "RDUH",
+          "openai_file_id": "file-CbH8rEDB5UuAsGgHVdWBxF"
         },
         {
           "filename": "Clinical-Guideline---Hypertensive-Urgency-and-Emergency-Guideline---AMUSDEC.pdf",
@@ -94,177 +49,69 @@
           "guideline_level": "local",
           "approval_date": "24/11/2023",
           "review_date": "01/06/2028",
-          "owner": "AMU Governance",
-          "openai_file_id": "file-SqNjZb3pTfwowvXBBacqqC"
+          "owner": "RDUH",
+          "openai_file_id": "file-RHmJEb2oGHvR66CwtaGd7o"
+        },
+        {
+          "filename": "diabetes_in_pregnancy.pdf",
+          "title": "Diabetes in Pregnancy",
+          "guideline_level": "local",
+          "approval_date": "10/04/2024",
+          "review_date": "12/11/2026",
+          "owner": "RDUH",
+          "openai_file_id": "file-KuW33mXWwyejXDmyRMNtsj"
+        },
+        {
+          "filename": "diabetes_in_pregnancy_antenatal_care_guideline.pdf",
+          "title": "Diabetes in Pregnancy - Antenatal Care",
+          "guideline_level": "local",
+          "approval_date": "01/06/2024",
+          "review_date": "04/04/2025",
+          "owner": "RDUH",
+          "openai_file_id": "file-76janHkEMsaffnJ9FLYo1v"
+        },
+        {
+          "filename": "diabetes_in_pregnancy_labour_and_puerperium_v3.2.pdf",
+          "title": "Diabetes in Labour and the Postnatal Period",
+          "guideline_level": "local",
+          "approval_date": "14/08/2025",
+          "review_date": "09/01/2030",
+          "owner": "RDUH",
+          "openai_file_id": "file-PwpkVKL48BttBDu5Adkdq4"
+        },
+        {
+          "filename": "diabetes_inpatient_guideline_for_peri-operative_management_of_diabetes.docx",
+          "title": "Peri-operative Management of Diabetes",
+          "guideline_level": "local",
+          "approval_date": "18/03/2024",
+          "review_date": "01/01/2027",
+          "owner": "RDUH",
+          "openai_file_id": "file-APUxdzsdVgJV48CKZaq4zb"
+        },
+        {
+          "filename": "The-management-of-new-onset-AF-and-AFI.pdf",
+          "title": "The management of new onset Atrial Fibrillation (AF) & Atrial Flutter (AFl)",
+          "guideline_level": "local",
+          "approval_date": "18/08/2022",
+          "review_date": "01/06/2022",
+          "owner": "RDUH",
+          "openai_file_id": "file-YRmfsyfquvEuWY1tEeJ4Jh"
         }
       ]
     },
     "national": {
-      "vector_store_id": "vs_69b49316b3f4819185277439dc1fae40",
+      "vector_store_id": "vs_69b5d5fd352c8191b9d9a17ffc36bb53",
       "name": "Sally Guidelines - National",
-      "file_count": 30,
+      "file_count": 53,
       "files": [
         {
-          "filename": "NICE_NG3_Diabetes_in_pregnancy.pdf",
-          "title": "Diabetes in pregnancy: management from preconception to the postnatal period",
-          "guideline_level": "national",
-          "approval_date": "25/02/2015",
-          "review_date": "16/12/2020",
-          "owner": "NICE",
-          "openai_file_id": "file-VqWtvYWDehRD68wiuv6LWB"
-        },
-        {
-          "filename": "NICE_NG17_Type_1_diabetes_in_adults.pdf",
-          "title": "Type 1 diabetes in adults: diagnosis and management",
-          "guideline_level": "national",
-          "approval_date": "26/08/2015",
-          "review_date": "17/08/2022",
-          "owner": "NICE",
-          "openai_file_id": "file-Hue5A7a2kqMXHTJhUXHsnn"
-        },
-        {
-          "filename": "NICE_NG18_Diabetes_in_children_and_young_people.pdf",
-          "title": "Diabetes (type 1 and type 2) in children and young people: diagnosis and management",
-          "guideline_level": "national",
-          "approval_date": "01/08/2015",
-          "review_date": "11/05/2023",
-          "owner": "NICE",
-          "openai_file_id": "file-ReTYqLTdmyxvEZbM62ZVb5"
-        },
-        {
-          "filename": "NICE_NG19_Diabetic_foot_problems.pdf",
-          "title": "Diabetic foot problems: prevention and management",
-          "guideline_level": "national",
-          "approval_date": "26/08/2015",
-          "review_date": "03/07/2025",
-          "owner": "NICE",
-          "openai_file_id": "file-QdEzJnEjiGUCt3GHuoiHc8"
-        },
-        {
-          "filename": "NICE_NG28_Type_2_diabetes_in_adults.pdf",
-          "title": "Type 2 diabetes in adults: management",
-          "guideline_level": "national",
-          "approval_date": "02/12/2015",
-          "review_date": "18/02/2026",
-          "owner": "NICE",
-          "openai_file_id": "file-3X92ULhkSwgAxMr1CY9UCN"
-        },
-        {
-          "filename": "NICE_NG242_Diabetic_retinopathy.pdf",
-          "title": "Diabetic retinopathy: management and monitoring",
-          "guideline_level": "national",
-          "approval_date": "13/08/2024",
-          "review_date": "13/08/2024",
-          "owner": "NICE",
-          "openai_file_id": "file-8evT5bqzBwiPKzBwK6Ez8e"
-        },
-        {
-          "filename": "NICE_PH38_Type_2_diabetes_prevention_high_risk.pdf",
-          "title": "Type 2 diabetes: prevention in people at high risk",
-          "guideline_level": "national",
-          "approval_date": "12/07/2012",
-          "review_date": "15/09/2017",
-          "owner": "NICE",
-          "openai_file_id": "file-BxZbVP26mNHbQMuBRuHsdG"
-        },
-        {
-          "filename": "NICE_TA151_Insulin_pump_therapy_for_diabetes.pdf",
-          "title": "Insulin pump therapy for diabetes",
-          "guideline_level": "national",
-          "approval_date": "23/07/2008",
-          "review_date": "22/06/2016",
-          "owner": "NICE",
-          "openai_file_id": "file-X2Ux9bcuZNeEJptLdkKf4h"
-        },
-        {
-          "filename": "NICE_TA943_Hybrid_closed_loop_systems_type_1_diabetes.pdf",
-          "title": "Hybrid closed loop systems for managing blood glucose levels in type 1 diabetes",
-          "guideline_level": "national",
-          "approval_date": "19/12/2023",
-          "review_date": "19/12/2023",
-          "owner": "NICE",
-          "openai_file_id": "file-JuasgdtmGcai7H9xTznn1z"
-        },
-        {
-          "filename": "NICE_TA274_Ranibizumab_diabetic_macular_oedema.pdf",
-          "title": "Ranibizumab for treating diabetic macular oedema",
-          "guideline_level": "national",
-          "approval_date": "27/02/2013",
-          "review_date": "26/10/2023",
-          "owner": "NICE",
-          "openai_file_id": "file-TYm5QRNUzw7TXZoj2LkzGE"
-        },
-        {
-          "filename": "NICE_TA346_Aflibercept_diabetic_macular_oedema.pdf",
-          "title": "Aflibercept for treating diabetic macular oedema",
-          "guideline_level": "national",
-          "approval_date": "22/07/2015",
-          "review_date": "27/07/2018",
-          "owner": "NICE",
-          "openai_file_id": "file-KMCDFpUCf1TtSg3n1GMmQq"
-        },
-        {
-          "filename": "NICE_TA799_Faricimab_diabetic_macular_oedema.pdf",
-          "title": "Faricimab for treating diabetic macular oedema",
-          "guideline_level": "national",
-          "approval_date": "29/06/2022",
-          "review_date": "29/06/2022",
-          "owner": "NICE",
-          "openai_file_id": "file-9CdnW3etU5gNg5Pgf1HqnH"
-        },
-        {
-          "filename": "NICE_TA820_Brolucizumab_diabetic_macular_oedema.pdf",
-          "title": "Brolucizumab for treating diabetic macular oedema",
-          "guideline_level": "national",
-          "approval_date": "31/08/2022",
-          "review_date": "31/08/2022",
-          "owner": "NICE",
-          "openai_file_id": "file-S9iSWTS3vEPVjeEZmcqQ9z"
-        },
-        {
-          "filename": "NICE_TA824_Dexamethasone_intravitreal_implant_diabetic_macular_oedema.pdf",
-          "title": "Dexamethasone intravitreal implant for treating diabetic macular oedema",
-          "guideline_level": "national",
-          "approval_date": "14/09/2022",
-          "review_date": "14/09/2022",
-          "owner": "NICE",
-          "openai_file_id": "file-Y8os3Y1RqNcSypQStdz6Pa"
-        },
-        {
-          "filename": "NICE_TA953_Fluocinolone_acetonide_implant_chronic_diabetic_macular_oedema.pdf",
-          "title": "Fluocinolone acetonide intravitreal implant for treating chronic diabetic macular oedema",
-          "guideline_level": "national",
-          "approval_date": "13/03/2024",
-          "review_date": "13/03/2024",
-          "owner": "NICE",
-          "openai_file_id": "file-KkNfZ8jie2te4zGEg94pmU"
-        },
-        {
-          "filename": "ABCD_Standards_of_care_adults_type_1_diabetes.pdf",
-          "title": "Standards of care for management of adults with type 1 diabetes",
+          "filename": "ABCD_Glycaemic_assessment_diabetes_haemodialysis.pdf",
+          "title": "Standards of care for glycaemic assessment in people with diabetes on haemodialysis",
           "guideline_level": "national",
           "approval_date": "",
           "review_date": "",
-          "owner": "ABCD",
-          "openai_file_id": "file-P89UkSFWDBdLESjGLijaQh"
-        },
-        {
-          "filename": "ABCD_SGLT2_inhibitors_type_2_diabetes.pdf",
-          "title": "SGLT-2 inhibitors in type 2 diabetes",
-          "guideline_level": "national",
-          "approval_date": "",
-          "review_date": "",
-          "owner": "ABCD",
-          "openai_file_id": "file-2vFxo2CJvDggobVekcLwH3"
-        },
-        {
-          "filename": "ABCD_Position_statement_frailty_older_adults_diabetes.pdf",
-          "title": "Managing frailty and associated comorbidities in older adults with diabetes",
-          "guideline_level": "national",
-          "approval_date": "",
-          "review_date": "",
-          "owner": "ABCD",
-          "openai_file_id": "file-JfLgbLcUsQWDXCw3ZXcoXf"
+          "owner": "ABCD / Renal Association",
+          "openai_file_id": "file-D6i7wwEiTAw3pc3DLmR8ms"
         },
         {
           "filename": "ABCD_Management_of_hyperglycaemia_in_adults_with_DKD.pdf",
@@ -273,16 +120,7 @@
           "approval_date": "",
           "review_date": "",
           "owner": "ABCD",
-          "openai_file_id": "file-2VXbJh2Ky9No3ALxiHRB5s"
-        },
-        {
-          "filename": "ABCD_Glycaemic_assessment_diabetes_haemodialysis.pdf",
-          "title": "Standards of care for glycaemic assessment in people with diabetes on haemodialysis",
-          "guideline_level": "national",
-          "approval_date": "",
-          "review_date": "",
-          "owner": "ABCD / Renal Association",
-          "openai_file_id": "file-TvPWCvLGkWArgqoRW7iJRh"
+          "openai_file_id": "file-NjRtbuqhmxkmXaQySYC6da"
         },
         {
           "filename": "ABCD_PCDS_Remission_of_type_2_diabetes_position_statement.pdf",
@@ -291,7 +129,34 @@
           "approval_date": "",
           "review_date": "",
           "owner": "ABCD / PCDS",
-          "openai_file_id": "file-VufK5L7mQLjuFMM4ZQ32ZD"
+          "openai_file_id": "file-AcYsxfSnyUFr9uceLLEMyn"
+        },
+        {
+          "filename": "ABCD_Position_statement_frailty_older_adults_diabetes.pdf",
+          "title": "Managing frailty and associated comorbidities in older adults with diabetes",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "ABCD",
+          "openai_file_id": "file-Hsq9X4hU1JEeANGdzzkZrM"
+        },
+        {
+          "filename": "ABCD_SGLT2_inhibitors_type_2_diabetes.pdf",
+          "title": "SGLT-2 inhibitors in type 2 diabetes",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "ABCD",
+          "openai_file_id": "file-CPxEZfB8DJwGJe3BvLHRjR"
+        },
+        {
+          "filename": "ABCD_Standards_of_care_adults_type_1_diabetes.pdf",
+          "title": "Standards of care for management of adults with type 1 diabetes",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "ABCD",
+          "openai_file_id": "file-ERjSS9hzBS6rWbrwW43hEL"
         },
         {
           "filename": "DTN_UK_ABCD_Using_diabetes_technology_in_pregnancy.pdf",
@@ -300,7 +165,7 @@
           "approval_date": "",
           "review_date": "",
           "owner": "DTN-UK / ABCD",
-          "openai_file_id": "file-MZzQjKGw3V1rU1wqzFRw3C"
+          "openai_file_id": "file-Pj9cYj2qXZbABo5jKr6juJ"
         },
         {
           "filename": "JBDS_02_Diabetic_ketoacidosis_in_adults.pdf",
@@ -309,7 +174,7 @@
           "approval_date": "",
           "review_date": "",
           "owner": "JBDS",
-          "openai_file_id": "file-UZh6fPaVQKdxrsCpA6Rhz8"
+          "openai_file_id": "file-2kdGcFSiEeU4cYBTdizqnW"
         },
         {
           "filename": "JBDS_03_Diabetes_undergoing_surgery_CPOC.pdf",
@@ -317,8 +182,8 @@
           "guideline_level": "national",
           "approval_date": "19/12/2022",
           "review_date": "",
-          "owner": "JBDS / CPOC",
-          "openai_file_id": "file-N34RLt73DA6o2VmwTyUbxW"
+          "owner": "JBDS",
+          "openai_file_id": "file-Nm5c3KUFL4hEjQna3ZeLpG"
         },
         {
           "filename": "JBDS_06_HHS_in_adults.pdf",
@@ -327,7 +192,7 @@
           "approval_date": "",
           "review_date": "",
           "owner": "JBDS",
-          "openai_file_id": "file-98BBu1MFnVbGBHEeS1GRYS"
+          "openai_file_id": "file-JK1F5aCMQXmLa4YT9hFS99"
         },
         {
           "filename": "JBDS_08_Steroid_hyperglycaemia.pdf",
@@ -336,7 +201,7 @@
           "approval_date": "17/01/2023",
           "review_date": "",
           "owner": "JBDS",
-          "openai_file_id": "file-TqNrbxdLSdBab6ogNxL7VQ"
+          "openai_file_id": "file-Ji8pcFnDuqDxzPiZsKBuqJ"
         },
         {
           "filename": "JBDS_11_Adults_with_diabetes_on_dialysis.pdf",
@@ -345,7 +210,7 @@
           "approval_date": "",
           "review_date": "",
           "owner": "JBDS",
-          "openai_file_id": "file-UzdDjCvb21V4kwWhugwQmd"
+          "openai_file_id": "file-SzjpwujyGHiWpYE8EdSYFC"
         },
         {
           "filename": "JBDS_12_Diabetes_hyperglycaemia_during_labour_and_birth.pdf",
@@ -354,7 +219,7 @@
           "approval_date": "",
           "review_date": "",
           "owner": "JBDS",
-          "openai_file_id": "file-VBhMYcT6Ebc725Xvgc148b"
+          "openai_file_id": "file-RhK7qS6kX5qBASFtjMVHCg"
         },
         {
           "filename": "JBDS_15_Inpatient_frail_older_adult_with_diabetes.pdf",
@@ -363,7 +228,7 @@
           "approval_date": "",
           "review_date": "",
           "owner": "JBDS",
-          "openai_file_id": "file-AjLrs9g6hdpLZjqCS6qCHp"
+          "openai_file_id": "file-Ma21dwszqo2eZvEPZWrgYA"
         },
         {
           "filename": "JBDS_16_Diabetes_at_the_front_door.pdf",
@@ -372,77 +237,410 @@
           "approval_date": "",
           "review_date": "",
           "owner": "JBDS",
-          "openai_file_id": "file-9WoTdfT9xZQpK9VUL4w8uA"
+          "openai_file_id": "file-PpJtgBLkSUryEPpKzQBGZG"
+        },
+        {
+          "filename": "NICE_NG17_Type_1_diabetes_in_adults.pdf",
+          "title": "Type 1 diabetes in adults: diagnosis and management",
+          "guideline_level": "national",
+          "approval_date": "26/08/2015",
+          "review_date": "17/08/2022",
+          "owner": "NICE",
+          "openai_file_id": "file-AbDans4rH9YeB8pW3adCjn"
+        },
+        {
+          "filename": "NICE_NG18_Diabetes_in_children_and_young_people.pdf",
+          "title": "Diabetes (type 1 and type 2) in children and young people: diagnosis and management",
+          "guideline_level": "national",
+          "approval_date": "01/08/2015",
+          "review_date": "11/05/2023",
+          "owner": "NICE",
+          "openai_file_id": "file-XnJJEYS3w63BuGShzFG2XM"
+        },
+        {
+          "filename": "NICE_NG19_Diabetic_foot_problems.pdf",
+          "title": "Diabetic foot problems: prevention and management",
+          "guideline_level": "national",
+          "approval_date": "26/08/2015",
+          "review_date": "03/07/2025",
+          "owner": "NICE",
+          "openai_file_id": "file-XWNxof3Zw8w14xEz5ZJxzK"
+        },
+        {
+          "filename": "NICE_NG242_Diabetic_retinopathy.pdf",
+          "title": "Diabetic retinopathy: management and monitoring",
+          "guideline_level": "national",
+          "approval_date": "13/08/2024",
+          "review_date": "13/08/2024",
+          "owner": "NICE",
+          "openai_file_id": "file-CtahYEki8mej1wBvpPkrFP"
+        },
+        {
+          "filename": "NICE_NG28_Type_2_diabetes_in_adults.pdf",
+          "title": "Type 2 diabetes in adults: management",
+          "guideline_level": "national",
+          "approval_date": "02/12/2015",
+          "review_date": "18/02/2026",
+          "owner": "NICE",
+          "openai_file_id": "file-V3qW5Dow213WMbHUh1iZHM"
+        },
+        {
+          "filename": "NICE_NG3_Diabetes_in_pregnancy.pdf",
+          "title": "Diabetes in pregnancy: management from preconception to the postnatal period",
+          "guideline_level": "national",
+          "approval_date": "25/02/2015",
+          "review_date": "16/12/2020",
+          "owner": "NICE",
+          "openai_file_id": "file-2KqpdxaQXus5nbqvA3Rebf"
+        },
+        {
+          "filename": "NICE_PH38_Type_2_diabetes_prevention_high_risk.pdf",
+          "title": "Type 2 diabetes: prevention in people at high risk",
+          "guideline_level": "national",
+          "approval_date": "12/07/2012",
+          "review_date": "15/09/2017",
+          "owner": "NICE",
+          "openai_file_id": "file-HSSsrhjQMLVe3Hx2CDQh5N"
+        },
+        {
+          "filename": "NICE_TA151_Insulin_pump_therapy_for_diabetes.pdf",
+          "title": "Insulin pump therapy for diabetes",
+          "guideline_level": "national",
+          "approval_date": "23/07/2008",
+          "review_date": "22/06/2016",
+          "owner": "NICE",
+          "openai_file_id": "file-FevSzpmongNwaWKLYgdiuD"
+        },
+        {
+          "filename": "NICE_TA274_Ranibizumab_diabetic_macular_oedema.pdf",
+          "title": "Ranibizumab for treating diabetic macular oedema",
+          "guideline_level": "national",
+          "approval_date": "27/02/2013",
+          "review_date": "26/10/2023",
+          "owner": "NICE",
+          "openai_file_id": "file-PhJJNNqxM3MrXFCzUc7XVx"
+        },
+        {
+          "filename": "NICE_TA346_Aflibercept_diabetic_macular_oedema.pdf",
+          "title": "Aflibercept for treating diabetic macular oedema",
+          "guideline_level": "national",
+          "approval_date": "22/07/2015",
+          "review_date": "27/07/2018",
+          "owner": "NICE",
+          "openai_file_id": "file-4hSZHMhjhnGYt93EqcL4Ti"
+        },
+        {
+          "filename": "NICE_TA799_Faricimab_diabetic_macular_oedema.pdf",
+          "title": "Faricimab for treating diabetic macular oedema",
+          "guideline_level": "national",
+          "approval_date": "29/06/2022",
+          "review_date": "29/06/2022",
+          "owner": "NICE",
+          "openai_file_id": "file-346Pog8yJpUgkq4e4Dw86N"
+        },
+        {
+          "filename": "NICE_TA820_Brolucizumab_diabetic_macular_oedema.pdf",
+          "title": "Brolucizumab for treating diabetic macular oedema",
+          "guideline_level": "national",
+          "approval_date": "31/08/2022",
+          "review_date": "31/08/2022",
+          "owner": "NICE",
+          "openai_file_id": "file-HAnEUN9oyKjduY2MpjTDiP"
+        },
+        {
+          "filename": "NICE_TA824_Dexamethasone_intravitreal_implant_diabetic_macular_oedema.pdf",
+          "title": "Dexamethasone intravitreal implant for treating diabetic macular oedema",
+          "guideline_level": "national",
+          "approval_date": "14/09/2022",
+          "review_date": "14/09/2022",
+          "owner": "NICE",
+          "openai_file_id": "file-6aYeCAiUjfijybq4XhK2fw"
+        },
+        {
+          "filename": "NICE_TA943_Hybrid_closed_loop_systems_type_1_diabetes.pdf",
+          "title": "Hybrid closed loop systems for managing blood glucose levels in type 1 diabetes",
+          "guideline_level": "national",
+          "approval_date": "19/12/2023",
+          "review_date": "19/12/2023",
+          "owner": "NICE",
+          "openai_file_id": "file-L4nKK5DLkoWMc7Uc5YPVAk"
+        },
+        {
+          "filename": "NICE_TA953_Fluocinolone_acetonide_implant_chronic_diabetic_macular_oedema.pdf",
+          "title": "Fluocinolone acetonide intravitreal implant for treating chronic diabetic macular oedema",
+          "guideline_level": "national",
+          "approval_date": "13/03/2024",
+          "review_date": "13/03/2024",
+          "owner": "NICE",
+          "openai_file_id": "file-KVNSbeaEx6YtSkD2R36kWm"
+        },
+        {
+          "filename": "NICE_QS109_Diabetes_in_pregnancy.pdf",
+          "title": "Diabetes in pregnancy",
+          "guideline_level": "national",
+          "approval_date": "19/01/2016",
+          "review_date": "10/01/2023",
+          "owner": "NICE",
+          "openai_file_id": "file-WPwN82Jzao91qrCanhrRjc"
+        },
+        {
+          "filename": "NICE_QS125_Diabetes_in_children_and_young_people.pdf",
+          "title": "Diabetes in children and young people",
+          "guideline_level": "national",
+          "approval_date": "14/07/2016",
+          "review_date": "31/03/2022",
+          "owner": "NICE",
+          "openai_file_id": "file-3xTMndwJTgDkdagdHzfooA"
+        },
+        {
+          "filename": "NICE_QS208_Type_1_diabetes_in_adults.pdf",
+          "title": "Type 1 diabetes in adults",
+          "guideline_level": "national",
+          "approval_date": "02/03/2023",
+          "review_date": "02/03/2023",
+          "owner": "NICE",
+          "openai_file_id": "file-RL8N5AXkUAR8sQzgZtCJ4G"
+        },
+        {
+          "filename": "NICE_QS209_Type_2_diabetes_in_adults.pdf",
+          "title": "Type 2 diabetes in adults",
+          "guideline_level": "national",
+          "approval_date": "02/03/2023",
+          "review_date": "18/02/2026",
+          "owner": "NICE",
+          "openai_file_id": "file-3ft9Y4hNzDXDLg6VtkB7Rv"
+        },
+        {
+          "filename": "JBDS_01_Hospital_management_of_hypoglycaemia_in_adults.pdf",
+          "title": "The Hospital Management of Hypoglycaemia in Adults with Diabetes Mellitus",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "JBDS",
+          "openai_file_id": "file-M56dvTHvZnEueFG6c7L2Gu"
+        },
+        {
+          "filename": "JBDS_04_Self_management_of_diabetes_in_hospital.pdf",
+          "title": "Self-Management of Diabetes in Hospital",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "JBDS",
+          "openai_file_id": "file-LSmEJkMe6X1dB7HMaL3UZf"
+        },
+        {
+          "filename": "JBDS_05_Glycaemic_management_during_enteral_feeding_in_hospital.pdf",
+          "title": "Glycaemic management during enteral feeding for people with diabetes in hospital",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "JBDS",
+          "openai_file_id": "file-JggzPyJPJnd8YeDnnvzxjH"
+        },
+        {
+          "filename": "JBDS_07_Admissions_avoidance_and_diabetes.pdf",
+          "title": "Admissions avoidance and diabetes: guidance for clinical commissioning groups and clinical teams",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "JBDS",
+          "openai_file_id": "file-T7cxocMhF1gLmDwA3Fbcvu"
+        },
+        {
+          "filename": "JBDS_09_Variable_rate_intravenous_insulin_infusion_in_medical_inpatients.pdf",
+          "title": "The use of variable rate intravenous insulin infusion (VRIII) in medical inpatients",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "JBDS",
+          "openai_file_id": "file-842iE3pMY24xJqNQ4VNpYs"
+        },
+        {
+          "filename": "JBDS_10_Discharge_planning_for_adult_inpatients_with_diabetes.pdf",
+          "title": "Discharge planning for adult inpatients with diabetes",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "JBDS",
+          "openai_file_id": "file-JFZrrRoDFp6tSecgBPjWPi"
+        },
+        {
+          "filename": "JBDS_13_Diabetes_with_psychiatric_disorders_in_inpatient_settings.pdf",
+          "title": "The management of diabetes in adults and children with psychiatric disorders in inpatient settings",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "JBDS",
+          "openai_file_id": "file-UnExuKZNcubwuDEyTBWVAd"
+        },
+        {
+          "filename": "JBDS_14_A_good_inpatient_diabetes_service.pdf",
+          "title": "A good inpatient diabetes service",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "JBDS",
+          "openai_file_id": "file-Ubao8a8RqQX1QeYxEMfxtR"
+        },
+        {
+          "filename": "JBDS_17_Glycaemic_control_in_people_with_cancer.pdf",
+          "title": "The management of glycaemic control in people with cancer",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "JBDS",
+          "openai_file_id": "file-CvbRzTLEoRpG6mmANk4Qfp"
+        },
+        {
+          "filename": "JBDS_18_COVID_virtual_ward_hyperglycaemia_guidance.pdf",
+          "title": "COncise adVice on Inpatient Diabetes (COVID:Diabetes) - Hyperglycaemia",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "JBDS",
+          "openai_file_id": "file-ES3fmZSMizo8ChfeLamDHT"
+        },
+        {
+          "filename": "JBDS_20_Using_technology_to_support_diabetes_care_in_hospital.pdf",
+          "title": "Using Technology to Support Diabetes Care in Hospital",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "JBDS",
+          "openai_file_id": "file-UqW9ZQ1VQxeqLkZwHV1CFJ"
+        },
+        {
+          "filename": "ABCD_PCDOS_Levemir_discontinuation_guidance.pdf",
+          "title": "Discontinuation of Levemir (insulin detemir): Joint guidance from ABCD and PCDO Society",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "ABCD / PCDOS",
+          "openai_file_id": "file-GReKeVmc51oWS9giWtXfDU"
+        },
+        {
+          "filename": "ABCD_PCDS_GLP1_receptor_agonist_national_shortage_guidance.pdf",
+          "title": "Joint ABCD and PCDS guidance: GLP-1 receptor agonist national shortage",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "ABCD / PCDS",
+          "openai_file_id": "file-4xu7YP2hnUB6aNNVmgX2Zh"
+        },
+        {
+          "filename": "ABCD_SGLT2_inhibitors_type_1_diabetes_updated_2019.pdf",
+          "title": "ABCD position statement on the use of sodium-glucose cotransporter-2 inhibitors in type 1 diabetes (updated 2019)",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "ABCD",
+          "openai_file_id": "file-7gE1KusFasHzLxCqucxcJT"
+        },
+        {
+          "filename": "ABCD_UKKA_Finerenone_in_diabetic_kidney_disease.pdf",
+          "title": "Finerenone in the management of Diabetic Kidney Disease: A consensus statement by the Association of British Clinical Diabetologists and UK Kidney Association",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "ABCD / UKKA",
+          "openai_file_id": "file-LKhCRNv3ibzb4EcCFRdPq8"
+        },
+        {
+          "filename": "ABCD_UKKA_Hypertension_and_RAAS_blockade_in_diabetic_kidney_disease.pdf",
+          "title": "ABCD and Renal Association Clinical practice guidelines for management of hypertension and renin-angiotensin-aldosterone system blockade in adults with diabetic kidney disease (DKD)",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "ABCD / UKKA",
+          "openai_file_id": "file-76u8xuKdnDygm7ofivaJZ9"
+        },
+        {
+          "filename": "ABCD_UKKA_Hypertension_in_diabetic_kidney_disease_summary_guideline.pdf",
+          "title": "Management of Hypertension in Patients With Diabetic Kidney Disease: Summary of the Joint Association of British Clinical Diabetologists and UK Kidney Association (ABCD-UKKA) Guideline 2021",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "ABCD / UKKA",
+          "openai_file_id": "file-ErmvMAG6Wp1mg93jTTHuA3"
+        },
+        {
+          "filename": "ABCD_UKKA_Lipids_in_diabetic_kidney_disease.pdf",
+          "title": "Clinical practice guidelines for management of lipids in adults with diabetic kidney disease",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "ABCD / UKKA",
+          "openai_file_id": "file-BRYagSw8srgbRuumcTP64b"
+        },
+        {
+          "filename": "DTN_UK_ABCD_Best_practice_guide_hybrid_closed_loop_therapy.pdf",
+          "title": "Best Practice Guide for hybrid closed-loop therapy",
+          "guideline_level": "national",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "DTN-UK / ABCD",
+          "openai_file_id": "file-TTib3z3LBbH3HPr3iJc9pB"
         }
       ]
     },
     "international": {
-      "vector_store_id": "vs_69b4970c2cf4819193ce0071a003f58b",
+      "vector_store_id": "vs_69b5d965eed48191b3dcbfea722b2d1a",
       "name": "Sally Guidelines - International",
-      "file_count": 13,
+      "file_count": 24,
       "files": [
         {
-          "filename": "ADA_2026_Standards_Diagnosis_and_classification_of_diabetes.pdf",
-          "title": "Diagnosis and Classification of Diabetes: Standards of Care in Diabetes\u20142026",
+          "filename": "ADA_2026_Standards_Diabetes_care_in_the_hospital.pdf",
+          "title": "Diabetes Care in the Hospital: Standards of Care in Diabetes 2026",
           "guideline_level": "international",
           "approval_date": "08/12/2025",
-          "review_date": "08/12/2025",
+          "review_date": "",
           "owner": "ADA",
-          "openai_file_id": "file-43yk19Q3VzDhQ6Crgm7LBA"
-        },
-        {
-          "filename": "ADA_2026_Standards_Diabetes_technology.pdf",
-          "title": "Diabetes Technology: Standards of Care in Diabetes\u20142026",
-          "guideline_level": "international",
-          "approval_date": "08/12/2025",
-          "review_date": "08/12/2025",
-          "owner": "ADA",
-          "openai_file_id": "file-6g84HjQrFs4n4ZURXJ9Vdb"
-        },
-        {
-          "filename": "ADA_2026_Standards_Pharmacologic_approaches_to_glycemic_treatment.pdf",
-          "title": "Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes\u20142026",
-          "guideline_level": "international",
-          "approval_date": "08/12/2025",
-          "review_date": "08/12/2025",
-          "owner": "ADA",
-          "openai_file_id": "file-GzhR1dTjpAcKQnAW975naF"
-        },
-        {
-          "filename": "ADA_2026_Standards_Retinopathy_neuropathy_and_foot_care.pdf",
-          "title": "Retinopathy, Neuropathy, and Foot Care: Standards of Care in Diabetes\u20142026",
-          "guideline_level": "international",
-          "approval_date": "08/12/2025",
-          "review_date": "08/12/2025",
-          "owner": "ADA",
-          "openai_file_id": "file-MgrtKk9Kjj7aryKQwpfmKA"
+          "openai_file_id": "file-Bq8Uwdn8hwhiGXB5sNG5AQ"
         },
         {
           "filename": "ADA_2026_Standards_Diabetes_in_pregnancy.pdf",
-          "title": "Management of Diabetes in Pregnancy: Standards of Care in Diabetes\u20142026",
+          "title": "Management of Diabetes in Pregnancy: Standards of Care in Diabetes 2026",
           "guideline_level": "international",
           "approval_date": "08/12/2025",
-          "review_date": "08/12/2025",
-          "owner": "ADA",
-          "openai_file_id": "file-H3qE3VMnQKdCK4TQ3xg7iS"
-        },
-        {
-          "filename": "ADA_2026_Standards_Diabetes_care_in_the_hospital.pdf",
-          "title": "Diabetes Care in the Hospital: Standards of Care in Diabetes\u20142026",
-          "guideline_level": "international",
-          "approval_date": "08/12/2025",
-          "review_date": "08/12/2025",
-          "owner": "ADA",
-          "openai_file_id": "file-YRhKSQbALujcHWpaBvhjL9"
-        },
-        {
-          "filename": "ADA_EASD_2022_Management_of_hyperglycaemia_type_2_diabetes.pdf",
-          "title": "Management of Hyperglycemia in Type 2 Diabetes, 2022: a consensus report by the ADA and EASD",
-          "guideline_level": "international",
-          "approval_date": "01/11/2022",
           "review_date": "",
-          "owner": "ADA / EASD",
-          "openai_file_id": "file-DfZ6zuzQW1YxAYbAfMyvQZ"
+          "owner": "ADA",
+          "openai_file_id": "file-2hjhMn9ZMUWWxZkp5XpHNa"
+        },
+        {
+          "filename": "ADA_2026_Standards_Diabetes_technology.pdf",
+          "title": "Diabetes Technology: Standards of Care in Diabetes 2026",
+          "guideline_level": "international",
+          "approval_date": "08/12/2025",
+          "review_date": "",
+          "owner": "ADA",
+          "openai_file_id": "file-MgzwwpRiJMVPcd4rwinGGV"
+        },
+        {
+          "filename": "ADA_2026_Standards_Diagnosis_and_classification_of_diabetes.pdf",
+          "title": "Diagnosis and Classification of Diabetes: Standards of Care in Diabetes 2026",
+          "guideline_level": "international",
+          "approval_date": "08/12/2025",
+          "review_date": "",
+          "owner": "ADA",
+          "openai_file_id": "file-NCpqGJ4yR9bWtf6kP8QZsG"
+        },
+        {
+          "filename": "ADA_2026_Standards_Pharmacologic_approaches_to_glycemic_treatment.pdf",
+          "title": "Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes 2026",
+          "guideline_level": "international",
+          "approval_date": "08/12/2025",
+          "review_date": "",
+          "owner": "ADA",
+          "openai_file_id": "file-Y9Wk4uKKJuwuJaKjiKtckL"
+        },
+        {
+          "filename": "ADA_2026_Standards_Retinopathy_neuropathy_and_foot_care.pdf",
+          "title": "Retinopathy, Neuropathy, and Foot Care: Standards of Care in Diabetes 2026",
+          "guideline_level": "international",
+          "approval_date": "08/12/2025",
+          "review_date": "",
+          "owner": "ADA",
+          "openai_file_id": "file-1gemPHF167o6hU9D1ccrZC"
         },
         {
           "filename": "ADA_EASD_2021_Management_of_type_1_diabetes_in_adults.pdf",
@@ -451,25 +649,7 @@
           "approval_date": "",
           "review_date": "",
           "owner": "ADA / EASD",
-          "openai_file_id": "file-XyWxXNeRx3zvZUtUnDynpG"
-        },
-        {
-          "filename": "ADA_EASD_2022_Automated_insulin_delivery.pdf",
-          "title": "Automated Insulin Delivery: Benefits, Challenges, and Recommendations: a consensus report",
-          "guideline_level": "international",
-          "approval_date": "",
-          "review_date": "",
-          "owner": "ADA / EASD",
-          "openai_file_id": "file-82cWGK9yJeF8UuFsCcPGGk"
-        },
-        {
-          "filename": "ADA_EASD_2024_Hyperglycemic_crises_in_adults.pdf",
-          "title": "Hyperglycemic Crises in Adults With Diabetes: a consensus report",
-          "guideline_level": "international",
-          "approval_date": "22/06/2024",
-          "review_date": "",
-          "owner": "ADA / EASD",
-          "openai_file_id": "file-AZfj2ARGpSMgGwnQxsko92"
+          "openai_file_id": "file-7sD3AusJCR1Ej7GDF6HzkT"
         },
         {
           "filename": "ADA_EASD_2021_Remission_type_2_diabetes.pdf",
@@ -478,16 +658,43 @@
           "approval_date": "30/08/2021",
           "review_date": "",
           "owner": "ADA / EASD",
-          "openai_file_id": "file-8vmpyXh6uCnQvkzSHnd4cr"
+          "openai_file_id": "file-RMBkiKfStYYSNNdvmDV91A"
+        },
+        {
+          "filename": "ADA_EASD_2022_Automated_insulin_delivery.pdf",
+          "title": "Automated Insulin Delivery: Benefits, Challenges, and Recommendations: a consensus report",
+          "guideline_level": "international",
+          "approval_date": "",
+          "review_date": "",
+          "owner": "ADA / EASD",
+          "openai_file_id": "file-MFgUCszwFL7UMsCaJdV7vo"
+        },
+        {
+          "filename": "ADA_EASD_2022_Management_of_hyperglycaemia_type_2_diabetes.pdf",
+          "title": "Management of Hyperglycemia in Type 2 Diabetes, 2022: a consensus report by the ADA and EASD",
+          "guideline_level": "international",
+          "approval_date": "01/11/2022",
+          "review_date": "",
+          "owner": "ADA / EASD",
+          "openai_file_id": "file-Es2Ek5pJSxBnLHEu9wRoJ8"
+        },
+        {
+          "filename": "ADA_EASD_2024_Hyperglycemic_crises_in_adults.pdf",
+          "title": "Hyperglycemic Crises in Adults With Diabetes: a consensus report",
+          "guideline_level": "international",
+          "approval_date": "22/06/2024",
+          "review_date": "",
+          "owner": "ADA / EASD",
+          "openai_file_id": "file-JZ3YkipTWRNYwrJrSJYFZa"
         },
         {
           "filename": "IDF_2025_Global_clinical_practice_recommendations_type_2_diabetes.pdf",
-          "title": "IDF Global Clinical Practice Recommendations for Managing Type 2 Diabetes \u2013 2025",
+          "title": "IDF Global Clinical Practice Recommendations for Managing Type 2 Diabetes 2025",
           "guideline_level": "international",
           "approval_date": "",
           "review_date": "",
           "owner": "IDF",
-          "openai_file_id": "file-GjFpk67Sjn7gc7e24MUDFP"
+          "openai_file_id": "file-UyZ4Ex6Uj7qqtxfEUK89PG"
         },
         {
           "filename": "WHO_HEARTS_D_Diagnosis_and_management_of_type_2_diabetes.pdf",
@@ -496,65 +703,128 @@
           "approval_date": "",
           "review_date": "",
           "owner": "WHO",
-          "openai_file_id": "file-DycvpMPsstM2KwbHd73gBC"
+          "openai_file_id": "file-SWsa56To8eVBTY8uaYi88Y"
+        },
+        {
+          "filename": "ADA_2026_Standards_Cardiovascular_disease_and_risk_management.pdf",
+          "title": "Cardiovascular Disease and Risk Management: Standards of Care in Diabetes 2026",
+          "guideline_level": "international",
+          "approval_date": "08/12/2025",
+          "review_date": "08/12/2025",
+          "owner": "ADA",
+          "openai_file_id": "file-GF19H558p7zFYSauJHtWn4"
+        },
+        {
+          "filename": "ADA_2026_Standards_Children_and_adolescents.pdf",
+          "title": "Children and Adolescents: Standards of Care in Diabetes 2026",
+          "guideline_level": "international",
+          "approval_date": "08/12/2025",
+          "review_date": "08/12/2025",
+          "owner": "ADA",
+          "openai_file_id": "file-GLwtzTcrnZKEXLWg1QVh8t"
+        },
+        {
+          "filename": "ADA_2026_Standards_Chronic_kidney_disease_and_risk_management.pdf",
+          "title": "Chronic Kidney Disease and Risk Management: Standards of Care in Diabetes 2026",
+          "guideline_level": "international",
+          "approval_date": "08/12/2025",
+          "review_date": "08/12/2025",
+          "owner": "ADA",
+          "openai_file_id": "file-33Lc2Xru5JwAkH6p3FVm41"
+        },
+        {
+          "filename": "ADA_2026_Standards_Comprehensive_medical_evaluation_and_assessment_of_comorbidities.pdf",
+          "title": "Comprehensive Medical Evaluation and Assessment of Comorbidities: Standards of Care in Diabetes 2026",
+          "guideline_level": "international",
+          "approval_date": "08/12/2025",
+          "review_date": "08/12/2025",
+          "owner": "ADA",
+          "openai_file_id": "file-BnrEkm2s3VK3sjjNqQHY6c"
+        },
+        {
+          "filename": "ADA_2026_Standards_Diabetes_advocacy.pdf",
+          "title": "Diabetes Advocacy: Standards of Care in Diabetes 2026",
+          "guideline_level": "international",
+          "approval_date": "08/12/2025",
+          "review_date": "08/12/2025",
+          "owner": "ADA",
+          "openai_file_id": "file-4k7kaa6BnTpYYqzdHkT5n1"
+        },
+        {
+          "filename": "ADA_2026_Standards_Facilitating_positive_health_behaviors_and_well_being.pdf",
+          "title": "Facilitating Positive Health Behaviors and Well-being to Improve Health Outcomes: Standards of Care in Diabetes 2026",
+          "guideline_level": "international",
+          "approval_date": "08/12/2025",
+          "review_date": "08/12/2025",
+          "owner": "ADA",
+          "openai_file_id": "file-6S7H6BP1rAbvzcyTh9KJuR"
+        },
+        {
+          "filename": "ADA_2026_Standards_Glycemic_goals_hypoglycemia_and_hyperglycemic_crises.pdf",
+          "title": "Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises: Standards of Care in Diabetes 2026",
+          "guideline_level": "international",
+          "approval_date": "08/12/2025",
+          "review_date": "08/12/2025",
+          "owner": "ADA",
+          "openai_file_id": "file-6vtFfD5dk2gb7strnZ1SEo"
+        },
+        {
+          "filename": "ADA_2026_Standards_Improving_care_and_promoting_health_in_populations.pdf",
+          "title": "Improving Care and Promoting Health in Populations: Standards of Care in Diabetes 2026",
+          "guideline_level": "international",
+          "approval_date": "08/12/2025",
+          "review_date": "08/12/2025",
+          "owner": "ADA",
+          "openai_file_id": "file-FGvo5RnPjox8StQ8DzjGLi"
+        },
+        {
+          "filename": "ADA_2026_Standards_Obesity_and_weight_management_for_prevention_and_treatment_of_type_2_diabetes.pdf",
+          "title": "Obesity and Weight Management for the Prevention and Treatment of Type 2 Diabetes: Standards of Care in Diabetes 2026",
+          "guideline_level": "international",
+          "approval_date": "08/12/2025",
+          "review_date": "08/12/2025",
+          "owner": "ADA",
+          "openai_file_id": "file-LH7uCPMZWwD2hsXZBsiJ5Y"
+        },
+        {
+          "filename": "ADA_2026_Standards_Older_adults.pdf",
+          "title": "Older Adults: Standards of Care in Diabetes 2026",
+          "guideline_level": "international",
+          "approval_date": "08/12/2025",
+          "review_date": "08/12/2025",
+          "owner": "ADA",
+          "openai_file_id": "file-KvzN8LrKBFftuwsHYBnQg8"
+        },
+        {
+          "filename": "ADA_2026_Standards_Prevention_or_delay_of_diabetes_and_associated_comorbidities.pdf",
+          "title": "Prevention or Delay of Diabetes and Associated Comorbidities: Standards of Care in Diabetes 2026",
+          "guideline_level": "international",
+          "approval_date": "08/12/2025",
+          "review_date": "08/12/2025",
+          "owner": "ADA",
+          "openai_file_id": "file-SgoCty1YdPggZG7rp5X9Dg"
         }
       ]
     }
   },
   "uploaded_files": [
     {
-      "filename": "adult_type1diabetes_outpatient_management_guideline_v1.0.docx",
-      "title": "Adult Type 1 Diabetes OutpatientManagement Guideline",
-      "guideline_level": "local",
-      "approval_date": "01/01/2026",
-      "review_date": "01/01/2027",
-      "owner": "Diabetes MDT",
-      "openai_file_id": "file-XjvRuenLSeRT6yxEYcwqVZ"
-    },
-    {
-      "filename": "diabetes_in_pregnancy.pdf",
-      "title": "Diabetes in Pregnancy",
-      "guideline_level": "local",
-      "approval_date": "10/04/2024",
-      "review_date": "12/11/2026",
-      "owner": "Maternity Guideline Group",
-      "openai_file_id": "file-YP7gogFB2NWdhUjWUPd6hy"
-    },
-    {
-      "filename": "diabetes_inpatient_guideline_for_peri-operative_management_of_diabetes.docx",
-      "title": "Peri-operative Management of Diabetes",
-      "guideline_level": "local",
-      "approval_date": "18/03/2024",
-      "review_date": "01/01/2027",
-      "owner": "MDEC Specialist Governance Group",
-      "openai_file_id": "file-8wCH8cntEGyzckFkiowhuD"
-    },
-    {
-      "filename": "diabetes_in_pregnancy_antenatal_care_guideline.pdf",
-      "title": "Diabetes in Pregnancy - Antenatal Care",
-      "guideline_level": "local",
-      "approval_date": "01/06/2024",
-      "review_date": "04/04/2025",
-      "owner": "Maternity Guideline Group",
-      "openai_file_id": "file-Qoam8zrFJ7p4hm8GXHpmu9"
-    },
-    {
-      "filename": "diabetes_in_pregnancy_labour_and_puerperium_v3.2.pdf",
-      "title": "Diabetes in Labour and the Postnatal Period",
-      "guideline_level": "local",
-      "approval_date": "14/08/2025",
-      "review_date": "09/01/2030",
-      "owner": "Maternity Guideline Group",
-      "openai_file_id": "file-3SRh3qmHmhdkiBcbiu9M2n"
-    },
-    {
       "filename": "Acute-heart-Failure-Guideline-V1.0.pdf",
       "title": "Acute heart Failure Guideline V1.0",
       "guideline_level": "local",
       "approval_date": "01/06/2020",
       "review_date": "01/06/2023",
-      "owner": "Cardiology",
-      "openai_file_id": "file-QhyrtgQA2Y95VzMLFCS5HA"
+      "owner": "RDUH",
+      "openai_file_id": "file-8z5bF6q4VfFaLCE1k7CgpH"
+    },
+    {
+      "filename": "adult_type1diabetes_outpatient_management_guideline_v1.0.docx",
+      "title": "Adult Type 1 Diabetes Outpatient Management Guideline",
+      "guideline_level": "local",
+      "approval_date": "01/01/2026",
+      "review_date": "01/01/2027",
+      "owner": "RDUH",
+      "openai_file_id": "file-ChErFYd1nnv9AfffJA7Mkf"
     },
     {
       "filename": "Clinical-Guideline---Emergency-Management-of-Hyperkalaemia-in-Adults.pdf",
@@ -562,8 +832,8 @@
       "guideline_level": "local",
       "approval_date": "01/10/2023",
       "review_date": "01/12/2027",
-      "owner": "Renal",
-      "openai_file_id": "file-DAyn6R6KduYPRR68AWUacG"
+      "owner": "RDUH",
+      "openai_file_id": "file-CZ9aMzkvhYFja5hmH7c23W"
     },
     {
       "filename": "Clinical-Guideline-for-Rapid-optimisation-of-Guideline-Directed-Medical-Therapies-in-HFrEF-Approved-Nov-2024.docx",
@@ -571,17 +841,8 @@
       "guideline_level": "local",
       "approval_date": "27/11/2024",
       "review_date": "27/11/2027",
-      "owner": "Cardiology",
-      "openai_file_id": "file-3u7J3F4WStgSQcubg4FpuX"
-    },
-    {
-      "filename": "The-management-of-new-onset-AF-and-AFI.pdf",
-      "title": "The management of new onset Atrial Fibrillation (AF) & Atrial Flutter (AFl)",
-      "guideline_level": "local",
-      "approval_date": "18/08/2022",
-      "review_date": "01/06/2022",
-      "owner": "CEC",
-      "openai_file_id": "file-3DiUgnE2KteZeQZ22LSNfo"
+      "owner": "RDUH",
+      "openai_file_id": "file-CbH8rEDB5UuAsGgHVdWBxF"
     },
     {
       "filename": "Clinical-Guideline---Hypertensive-Urgency-and-Emergency-Guideline---AMUSDEC.pdf",
@@ -589,179 +850,53 @@
       "guideline_level": "local",
       "approval_date": "24/11/2023",
       "review_date": "01/06/2028",
-      "owner": "AMU Governance",
-      "openai_file_id": "file-SqNjZb3pTfwowvXBBacqqC"
+      "owner": "RDUH",
+      "openai_file_id": "file-RHmJEb2oGHvR66CwtaGd7o"
     },
     {
-      "filename": "NICE_NG3_Diabetes_in_pregnancy.pdf",
-      "title": "Diabetes in pregnancy: management from preconception to the postnatal period",
-      "guideline_level": "national",
-      "approval_date": "25/02/2015",
-      "review_date": "16/12/2020",
-      "owner": "NICE",
-      "openai_file_id": "file-VqWtvYWDehRD68wiuv6LWB"
+      "filename": "diabetes_in_pregnancy.pdf",
+      "title": "Diabetes in Pregnancy",
+      "guideline_level": "local",
+      "approval_date": "10/04/2024",
+      "review_date": "12/11/2026",
+      "owner": "RDUH",
+      "openai_file_id": "file-KuW33mXWwyejXDmyRMNtsj"
     },
     {
-      "filename": "NICE_NG17_Type_1_diabetes_in_adults.pdf",
-      "title": "Type 1 diabetes in adults: diagnosis and management",
-      "guideline_level": "national",
-      "approval_date": "26/08/2015",
-      "review_date": "17/08/2022",
-      "owner": "NICE",
-      "openai_file_id": "file-Hue5A7a2kqMXHTJhUXHsnn"
+      "filename": "diabetes_in_pregnancy_antenatal_care_guideline.pdf",
+      "title": "Diabetes in Pregnancy - Antenatal Care",
+      "guideline_level": "local",
+      "approval_date": "01/06/2024",
+      "review_date": "04/04/2025",
+      "owner": "RDUH",
+      "openai_file_id": "file-76janHkEMsaffnJ9FLYo1v"
     },
     {
-      "filename": "NICE_NG18_Diabetes_in_children_and_young_people.pdf",
-      "title": "Diabetes (type 1 and type 2) in children and young people: diagnosis and management",
-      "guideline_level": "national",
-      "approval_date": "01/08/2015",
-      "review_date": "11/05/2023",
-      "owner": "NICE",
-      "openai_file_id": "file-ReTYqLTdmyxvEZbM62ZVb5"
+      "filename": "diabetes_in_pregnancy_labour_and_puerperium_v3.2.pdf",
+      "title": "Diabetes in Labour and the Postnatal Period",
+      "guideline_level": "local",
+      "approval_date": "14/08/2025",
+      "review_date": "09/01/2030",
+      "owner": "RDUH",
+      "openai_file_id": "file-PwpkVKL48BttBDu5Adkdq4"
     },
     {
-      "filename": "NICE_NG19_Diabetic_foot_problems.pdf",
-      "title": "Diabetic foot problems: prevention and management",
-      "guideline_level": "national",
-      "approval_date": "26/08/2015",
-      "review_date": "03/07/2025",
-      "owner": "NICE",
-      "openai_file_id": "file-QdEzJnEjiGUCt3GHuoiHc8"
+      "filename": "diabetes_inpatient_guideline_for_peri-operative_management_of_diabetes.docx",
+      "title": "Peri-operative Management of Diabetes",
+      "guideline_level": "local",
+      "approval_date": "18/03/2024",
+      "review_date": "01/01/2027",
+      "owner": "RDUH",
+      "openai_file_id": "file-APUxdzsdVgJV48CKZaq4zb"
     },
     {
-      "filename": "NICE_NG28_Type_2_diabetes_in_adults.pdf",
-      "title": "Type 2 diabetes in adults: management",
-      "guideline_level": "national",
-      "approval_date": "02/12/2015",
-      "review_date": "18/02/2026",
-      "owner": "NICE",
-      "openai_file_id": "file-3X92ULhkSwgAxMr1CY9UCN"
-    },
-    {
-      "filename": "NICE_NG242_Diabetic_retinopathy.pdf",
-      "title": "Diabetic retinopathy: management and monitoring",
-      "guideline_level": "national",
-      "approval_date": "13/08/2024",
-      "review_date": "13/08/2024",
-      "owner": "NICE",
-      "openai_file_id": "file-8evT5bqzBwiPKzBwK6Ez8e"
-    },
-    {
-      "filename": "NICE_PH38_Type_2_diabetes_prevention_high_risk.pdf",
-      "title": "Type 2 diabetes: prevention in people at high risk",
-      "guideline_level": "national",
-      "approval_date": "12/07/2012",
-      "review_date": "15/09/2017",
-      "owner": "NICE",
-      "openai_file_id": "file-BxZbVP26mNHbQMuBRuHsdG"
-    },
-    {
-      "filename": "NICE_TA151_Insulin_pump_therapy_for_diabetes.pdf",
-      "title": "Insulin pump therapy for diabetes",
-      "guideline_level": "national",
-      "approval_date": "23/07/2008",
-      "review_date": "22/06/2016",
-      "owner": "NICE",
-      "openai_file_id": "file-X2Ux9bcuZNeEJptLdkKf4h"
-    },
-    {
-      "filename": "NICE_TA943_Hybrid_closed_loop_systems_type_1_diabetes.pdf",
-      "title": "Hybrid closed loop systems for managing blood glucose levels in type 1 diabetes",
-      "guideline_level": "national",
-      "approval_date": "19/12/2023",
-      "review_date": "19/12/2023",
-      "owner": "NICE",
-      "openai_file_id": "file-JuasgdtmGcai7H9xTznn1z"
-    },
-    {
-      "filename": "NICE_TA274_Ranibizumab_diabetic_macular_oedema.pdf",
-      "title": "Ranibizumab for treating diabetic macular oedema",
-      "guideline_level": "national",
-      "approval_date": "27/02/2013",
-      "review_date": "26/10/2023",
-      "owner": "NICE",
-      "openai_file_id": "file-TYm5QRNUzw7TXZoj2LkzGE"
-    },
-    {
-      "filename": "NICE_TA346_Aflibercept_diabetic_macular_oedema.pdf",
-      "title": "Aflibercept for treating diabetic macular oedema",
-      "guideline_level": "national",
-      "approval_date": "22/07/2015",
-      "review_date": "27/07/2018",
-      "owner": "NICE",
-      "openai_file_id": "file-KMCDFpUCf1TtSg3n1GMmQq"
-    },
-    {
-      "filename": "NICE_TA799_Faricimab_diabetic_macular_oedema.pdf",
-      "title": "Faricimab for treating diabetic macular oedema",
-      "guideline_level": "national",
-      "approval_date": "29/06/2022",
-      "review_date": "29/06/2022",
-      "owner": "NICE",
-      "openai_file_id": "file-9CdnW3etU5gNg5Pgf1HqnH"
-    },
-    {
-      "filename": "NICE_TA820_Brolucizumab_diabetic_macular_oedema.pdf",
-      "title": "Brolucizumab for treating diabetic macular oedema",
-      "guideline_level": "national",
-      "approval_date": "31/08/2022",
-      "review_date": "31/08/2022",
-      "owner": "NICE",
-      "openai_file_id": "file-S9iSWTS3vEPVjeEZmcqQ9z"
-    },
-    {
-      "filename": "NICE_TA824_Dexamethasone_intravitreal_implant_diabetic_macular_oedema.pdf",
-      "title": "Dexamethasone intravitreal implant for treating diabetic macular oedema",
-      "guideline_level": "national",
-      "approval_date": "14/09/2022",
-      "review_date": "14/09/2022",
-      "owner": "NICE",
-      "openai_file_id": "file-Y8os3Y1RqNcSypQStdz6Pa"
-    },
-    {
-      "filename": "NICE_TA953_Fluocinolone_acetonide_implant_chronic_diabetic_macular_oedema.pdf",
-      "title": "Fluocinolone acetonide intravitreal implant for treating chronic diabetic macular oedema",
-      "guideline_level": "national",
-      "approval_date": "13/03/2024",
-      "review_date": "13/03/2024",
-      "owner": "NICE",
-      "openai_file_id": "file-KkNfZ8jie2te4zGEg94pmU"
-    },
-    {
-      "filename": "ABCD_Standards_of_care_adults_type_1_diabetes.pdf",
-      "title": "Standards of care for management of adults with type 1 diabetes",
-      "guideline_level": "national",
-      "approval_date": "",
-      "review_date": "",
-      "owner": "ABCD",
-      "openai_file_id": "file-P89UkSFWDBdLESjGLijaQh"
-    },
-    {
-      "filename": "ABCD_SGLT2_inhibitors_type_2_diabetes.pdf",
-      "title": "SGLT-2 inhibitors in type 2 diabetes",
-      "guideline_level": "national",
-      "approval_date": "",
-      "review_date": "",
-      "owner": "ABCD",
-      "openai_file_id": "file-2vFxo2CJvDggobVekcLwH3"
-    },
-    {
-      "filename": "ABCD_Position_statement_frailty_older_adults_diabetes.pdf",
-      "title": "Managing frailty and associated comorbidities in older adults with diabetes",
-      "guideline_level": "national",
-      "approval_date": "",
-      "review_date": "",
-      "owner": "ABCD",
-      "openai_file_id": "file-JfLgbLcUsQWDXCw3ZXcoXf"
-    },
-    {
-      "filename": "ABCD_Management_of_hyperglycaemia_in_adults_with_DKD.pdf",
-      "title": "Management of hyperglycaemia in adults with diabetic kidney disease",
-      "guideline_level": "national",
-      "approval_date": "",
-      "review_date": "",
-      "owner": "ABCD",
-      "openai_file_id": "file-2VXbJh2Ky9No3ALxiHRB5s"
+      "filename": "The-management-of-new-onset-AF-and-AFI.pdf",
+      "title": "The management of new onset Atrial Fibrillation (AF) & Atrial Flutter (AFl)",
+      "guideline_level": "local",
+      "approval_date": "18/08/2022",
+      "review_date": "01/06/2022",
+      "owner": "RDUH",
+      "openai_file_id": "file-YRmfsyfquvEuWY1tEeJ4Jh"
     },
     {
       "filename": "ABCD_Glycaemic_assessment_diabetes_haemodialysis.pdf",
@@ -770,7 +905,16 @@
       "approval_date": "",
       "review_date": "",
       "owner": "ABCD / Renal Association",
-      "openai_file_id": "file-TvPWCvLGkWArgqoRW7iJRh"
+      "openai_file_id": "file-D6i7wwEiTAw3pc3DLmR8ms"
+    },
+    {
+      "filename": "ABCD_Management_of_hyperglycaemia_in_adults_with_DKD.pdf",
+      "title": "Management of hyperglycaemia in adults with diabetic kidney disease",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "ABCD",
+      "openai_file_id": "file-NjRtbuqhmxkmXaQySYC6da"
     },
     {
       "filename": "ABCD_PCDS_Remission_of_type_2_diabetes_position_statement.pdf",
@@ -779,7 +923,34 @@
       "approval_date": "",
       "review_date": "",
       "owner": "ABCD / PCDS",
-      "openai_file_id": "file-VufK5L7mQLjuFMM4ZQ32ZD"
+      "openai_file_id": "file-AcYsxfSnyUFr9uceLLEMyn"
+    },
+    {
+      "filename": "ABCD_Position_statement_frailty_older_adults_diabetes.pdf",
+      "title": "Managing frailty and associated comorbidities in older adults with diabetes",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "ABCD",
+      "openai_file_id": "file-Hsq9X4hU1JEeANGdzzkZrM"
+    },
+    {
+      "filename": "ABCD_SGLT2_inhibitors_type_2_diabetes.pdf",
+      "title": "SGLT-2 inhibitors in type 2 diabetes",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "ABCD",
+      "openai_file_id": "file-CPxEZfB8DJwGJe3BvLHRjR"
+    },
+    {
+      "filename": "ABCD_Standards_of_care_adults_type_1_diabetes.pdf",
+      "title": "Standards of care for management of adults with type 1 diabetes",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "ABCD",
+      "openai_file_id": "file-ERjSS9hzBS6rWbrwW43hEL"
     },
     {
       "filename": "DTN_UK_ABCD_Using_diabetes_technology_in_pregnancy.pdf",
@@ -788,7 +959,7 @@
       "approval_date": "",
       "review_date": "",
       "owner": "DTN-UK / ABCD",
-      "openai_file_id": "file-MZzQjKGw3V1rU1wqzFRw3C"
+      "openai_file_id": "file-Pj9cYj2qXZbABo5jKr6juJ"
     },
     {
       "filename": "JBDS_02_Diabetic_ketoacidosis_in_adults.pdf",
@@ -797,7 +968,7 @@
       "approval_date": "",
       "review_date": "",
       "owner": "JBDS",
-      "openai_file_id": "file-UZh6fPaVQKdxrsCpA6Rhz8"
+      "openai_file_id": "file-2kdGcFSiEeU4cYBTdizqnW"
     },
     {
       "filename": "JBDS_03_Diabetes_undergoing_surgery_CPOC.pdf",
@@ -805,8 +976,8 @@
       "guideline_level": "national",
       "approval_date": "19/12/2022",
       "review_date": "",
-      "owner": "JBDS / CPOC",
-      "openai_file_id": "file-N34RLt73DA6o2VmwTyUbxW"
+      "owner": "JBDS",
+      "openai_file_id": "file-Nm5c3KUFL4hEjQna3ZeLpG"
     },
     {
       "filename": "JBDS_06_HHS_in_adults.pdf",
@@ -815,7 +986,7 @@
       "approval_date": "",
       "review_date": "",
       "owner": "JBDS",
-      "openai_file_id": "file-98BBu1MFnVbGBHEeS1GRYS"
+      "openai_file_id": "file-JK1F5aCMQXmLa4YT9hFS99"
     },
     {
       "filename": "JBDS_08_Steroid_hyperglycaemia.pdf",
@@ -824,7 +995,7 @@
       "approval_date": "17/01/2023",
       "review_date": "",
       "owner": "JBDS",
-      "openai_file_id": "file-TqNrbxdLSdBab6ogNxL7VQ"
+      "openai_file_id": "file-Ji8pcFnDuqDxzPiZsKBuqJ"
     },
     {
       "filename": "JBDS_11_Adults_with_diabetes_on_dialysis.pdf",
@@ -833,7 +1004,7 @@
       "approval_date": "",
       "review_date": "",
       "owner": "JBDS",
-      "openai_file_id": "file-UzdDjCvb21V4kwWhugwQmd"
+      "openai_file_id": "file-SzjpwujyGHiWpYE8EdSYFC"
     },
     {
       "filename": "JBDS_12_Diabetes_hyperglycaemia_during_labour_and_birth.pdf",
@@ -842,7 +1013,7 @@
       "approval_date": "",
       "review_date": "",
       "owner": "JBDS",
-      "openai_file_id": "file-VBhMYcT6Ebc725Xvgc148b"
+      "openai_file_id": "file-RhK7qS6kX5qBASFtjMVHCg"
     },
     {
       "filename": "JBDS_15_Inpatient_frail_older_adult_with_diabetes.pdf",
@@ -851,7 +1022,7 @@
       "approval_date": "",
       "review_date": "",
       "owner": "JBDS",
-      "openai_file_id": "file-AjLrs9g6hdpLZjqCS6qCHp"
+      "openai_file_id": "file-Ma21dwszqo2eZvEPZWrgYA"
     },
     {
       "filename": "JBDS_16_Diabetes_at_the_front_door.pdf",
@@ -860,70 +1031,403 @@
       "approval_date": "",
       "review_date": "",
       "owner": "JBDS",
-      "openai_file_id": "file-9WoTdfT9xZQpK9VUL4w8uA"
+      "openai_file_id": "file-PpJtgBLkSUryEPpKzQBGZG"
     },
     {
-      "filename": "ADA_2026_Standards_Diagnosis_and_classification_of_diabetes.pdf",
-      "title": "Diagnosis and Classification of Diabetes: Standards of Care in Diabetes\u20142026",
-      "guideline_level": "international",
-      "approval_date": "08/12/2025",
-      "review_date": "08/12/2025",
-      "owner": "ADA",
-      "openai_file_id": "file-43yk19Q3VzDhQ6Crgm7LBA"
+      "filename": "NICE_NG17_Type_1_diabetes_in_adults.pdf",
+      "title": "Type 1 diabetes in adults: diagnosis and management",
+      "guideline_level": "national",
+      "approval_date": "26/08/2015",
+      "review_date": "17/08/2022",
+      "owner": "NICE",
+      "openai_file_id": "file-AbDans4rH9YeB8pW3adCjn"
     },
     {
-      "filename": "ADA_2026_Standards_Diabetes_technology.pdf",
-      "title": "Diabetes Technology: Standards of Care in Diabetes\u20142026",
-      "guideline_level": "international",
-      "approval_date": "08/12/2025",
-      "review_date": "08/12/2025",
-      "owner": "ADA",
-      "openai_file_id": "file-6g84HjQrFs4n4ZURXJ9Vdb"
+      "filename": "NICE_NG18_Diabetes_in_children_and_young_people.pdf",
+      "title": "Diabetes (type 1 and type 2) in children and young people: diagnosis and management",
+      "guideline_level": "national",
+      "approval_date": "01/08/2015",
+      "review_date": "11/05/2023",
+      "owner": "NICE",
+      "openai_file_id": "file-XnJJEYS3w63BuGShzFG2XM"
     },
     {
-      "filename": "ADA_2026_Standards_Pharmacologic_approaches_to_glycemic_treatment.pdf",
-      "title": "Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes\u20142026",
-      "guideline_level": "international",
-      "approval_date": "08/12/2025",
-      "review_date": "08/12/2025",
-      "owner": "ADA",
-      "openai_file_id": "file-GzhR1dTjpAcKQnAW975naF"
+      "filename": "NICE_NG19_Diabetic_foot_problems.pdf",
+      "title": "Diabetic foot problems: prevention and management",
+      "guideline_level": "national",
+      "approval_date": "26/08/2015",
+      "review_date": "03/07/2025",
+      "owner": "NICE",
+      "openai_file_id": "file-XWNxof3Zw8w14xEz5ZJxzK"
     },
     {
-      "filename": "ADA_2026_Standards_Retinopathy_neuropathy_and_foot_care.pdf",
-      "title": "Retinopathy, Neuropathy, and Foot Care: Standards of Care in Diabetes\u20142026",
-      "guideline_level": "international",
-      "approval_date": "08/12/2025",
-      "review_date": "08/12/2025",
-      "owner": "ADA",
-      "openai_file_id": "file-MgrtKk9Kjj7aryKQwpfmKA"
+      "filename": "NICE_NG242_Diabetic_retinopathy.pdf",
+      "title": "Diabetic retinopathy: management and monitoring",
+      "guideline_level": "national",
+      "approval_date": "13/08/2024",
+      "review_date": "13/08/2024",
+      "owner": "NICE",
+      "openai_file_id": "file-CtahYEki8mej1wBvpPkrFP"
     },
     {
-      "filename": "ADA_2026_Standards_Diabetes_in_pregnancy.pdf",
-      "title": "Management of Diabetes in Pregnancy: Standards of Care in Diabetes\u20142026",
-      "guideline_level": "international",
-      "approval_date": "08/12/2025",
-      "review_date": "08/12/2025",
-      "owner": "ADA",
-      "openai_file_id": "file-H3qE3VMnQKdCK4TQ3xg7iS"
+      "filename": "NICE_NG28_Type_2_diabetes_in_adults.pdf",
+      "title": "Type 2 diabetes in adults: management",
+      "guideline_level": "national",
+      "approval_date": "02/12/2015",
+      "review_date": "18/02/2026",
+      "owner": "NICE",
+      "openai_file_id": "file-V3qW5Dow213WMbHUh1iZHM"
+    },
+    {
+      "filename": "NICE_NG3_Diabetes_in_pregnancy.pdf",
+      "title": "Diabetes in pregnancy: management from preconception to the postnatal period",
+      "guideline_level": "national",
+      "approval_date": "25/02/2015",
+      "review_date": "16/12/2020",
+      "owner": "NICE",
+      "openai_file_id": "file-2KqpdxaQXus5nbqvA3Rebf"
+    },
+    {
+      "filename": "NICE_PH38_Type_2_diabetes_prevention_high_risk.pdf",
+      "title": "Type 2 diabetes: prevention in people at high risk",
+      "guideline_level": "national",
+      "approval_date": "12/07/2012",
+      "review_date": "15/09/2017",
+      "owner": "NICE",
+      "openai_file_id": "file-HSSsrhjQMLVe3Hx2CDQh5N"
+    },
+    {
+      "filename": "NICE_TA151_Insulin_pump_therapy_for_diabetes.pdf",
+      "title": "Insulin pump therapy for diabetes",
+      "guideline_level": "national",
+      "approval_date": "23/07/2008",
+      "review_date": "22/06/2016",
+      "owner": "NICE",
+      "openai_file_id": "file-FevSzpmongNwaWKLYgdiuD"
+    },
+    {
+      "filename": "NICE_TA274_Ranibizumab_diabetic_macular_oedema.pdf",
+      "title": "Ranibizumab for treating diabetic macular oedema",
+      "guideline_level": "national",
+      "approval_date": "27/02/2013",
+      "review_date": "26/10/2023",
+      "owner": "NICE",
+      "openai_file_id": "file-PhJJNNqxM3MrXFCzUc7XVx"
+    },
+    {
+      "filename": "NICE_TA346_Aflibercept_diabetic_macular_oedema.pdf",
+      "title": "Aflibercept for treating diabetic macular oedema",
+      "guideline_level": "national",
+      "approval_date": "22/07/2015",
+      "review_date": "27/07/2018",
+      "owner": "NICE",
+      "openai_file_id": "file-4hSZHMhjhnGYt93EqcL4Ti"
+    },
+    {
+      "filename": "NICE_TA799_Faricimab_diabetic_macular_oedema.pdf",
+      "title": "Faricimab for treating diabetic macular oedema",
+      "guideline_level": "national",
+      "approval_date": "29/06/2022",
+      "review_date": "29/06/2022",
+      "owner": "NICE",
+      "openai_file_id": "file-346Pog8yJpUgkq4e4Dw86N"
+    },
+    {
+      "filename": "NICE_TA820_Brolucizumab_diabetic_macular_oedema.pdf",
+      "title": "Brolucizumab for treating diabetic macular oedema",
+      "guideline_level": "national",
+      "approval_date": "31/08/2022",
+      "review_date": "31/08/2022",
+      "owner": "NICE",
+      "openai_file_id": "file-HAnEUN9oyKjduY2MpjTDiP"
+    },
+    {
+      "filename": "NICE_TA824_Dexamethasone_intravitreal_implant_diabetic_macular_oedema.pdf",
+      "title": "Dexamethasone intravitreal implant for treating diabetic macular oedema",
+      "guideline_level": "national",
+      "approval_date": "14/09/2022",
+      "review_date": "14/09/2022",
+      "owner": "NICE",
+      "openai_file_id": "file-6aYeCAiUjfijybq4XhK2fw"
+    },
+    {
+      "filename": "NICE_TA943_Hybrid_closed_loop_systems_type_1_diabetes.pdf",
+      "title": "Hybrid closed loop systems for managing blood glucose levels in type 1 diabetes",
+      "guideline_level": "national",
+      "approval_date": "19/12/2023",
+      "review_date": "19/12/2023",
+      "owner": "NICE",
+      "openai_file_id": "file-L4nKK5DLkoWMc7Uc5YPVAk"
+    },
+    {
+      "filename": "NICE_TA953_Fluocinolone_acetonide_implant_chronic_diabetic_macular_oedema.pdf",
+      "title": "Fluocinolone acetonide intravitreal implant for treating chronic diabetic macular oedema",
+      "guideline_level": "national",
+      "approval_date": "13/03/2024",
+      "review_date": "13/03/2024",
+      "owner": "NICE",
+      "openai_file_id": "file-KVNSbeaEx6YtSkD2R36kWm"
+    },
+    {
+      "filename": "NICE_QS109_Diabetes_in_pregnancy.pdf",
+      "title": "Diabetes in pregnancy",
+      "guideline_level": "national",
+      "approval_date": "19/01/2016",
+      "review_date": "10/01/2023",
+      "owner": "NICE",
+      "openai_file_id": "file-WPwN82Jzao91qrCanhrRjc"
+    },
+    {
+      "filename": "NICE_QS125_Diabetes_in_children_and_young_people.pdf",
+      "title": "Diabetes in children and young people",
+      "guideline_level": "national",
+      "approval_date": "14/07/2016",
+      "review_date": "31/03/2022",
+      "owner": "NICE",
+      "openai_file_id": "file-3xTMndwJTgDkdagdHzfooA"
+    },
+    {
+      "filename": "NICE_QS208_Type_1_diabetes_in_adults.pdf",
+      "title": "Type 1 diabetes in adults",
+      "guideline_level": "national",
+      "approval_date": "02/03/2023",
+      "review_date": "02/03/2023",
+      "owner": "NICE",
+      "openai_file_id": "file-RL8N5AXkUAR8sQzgZtCJ4G"
+    },
+    {
+      "filename": "NICE_QS209_Type_2_diabetes_in_adults.pdf",
+      "title": "Type 2 diabetes in adults",
+      "guideline_level": "national",
+      "approval_date": "02/03/2023",
+      "review_date": "18/02/2026",
+      "owner": "NICE",
+      "openai_file_id": "file-3ft9Y4hNzDXDLg6VtkB7Rv"
+    },
+    {
+      "filename": "JBDS_01_Hospital_management_of_hypoglycaemia_in_adults.pdf",
+      "title": "The Hospital Management of Hypoglycaemia in Adults with Diabetes Mellitus",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "JBDS",
+      "openai_file_id": "file-M56dvTHvZnEueFG6c7L2Gu"
+    },
+    {
+      "filename": "JBDS_04_Self_management_of_diabetes_in_hospital.pdf",
+      "title": "Self-Management of Diabetes in Hospital",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "JBDS",
+      "openai_file_id": "file-LSmEJkMe6X1dB7HMaL3UZf"
+    },
+    {
+      "filename": "JBDS_05_Glycaemic_management_during_enteral_feeding_in_hospital.pdf",
+      "title": "Glycaemic management during enteral feeding for people with diabetes in hospital",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "JBDS",
+      "openai_file_id": "file-JggzPyJPJnd8YeDnnvzxjH"
+    },
+    {
+      "filename": "JBDS_07_Admissions_avoidance_and_diabetes.pdf",
+      "title": "Admissions avoidance and diabetes: guidance for clinical commissioning groups and clinical teams",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "JBDS",
+      "openai_file_id": "file-T7cxocMhF1gLmDwA3Fbcvu"
+    },
+    {
+      "filename": "JBDS_09_Variable_rate_intravenous_insulin_infusion_in_medical_inpatients.pdf",
+      "title": "The use of variable rate intravenous insulin infusion (VRIII) in medical inpatients",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "JBDS",
+      "openai_file_id": "file-842iE3pMY24xJqNQ4VNpYs"
+    },
+    {
+      "filename": "JBDS_10_Discharge_planning_for_adult_inpatients_with_diabetes.pdf",
+      "title": "Discharge planning for adult inpatients with diabetes",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "JBDS",
+      "openai_file_id": "file-JFZrrRoDFp6tSecgBPjWPi"
+    },
+    {
+      "filename": "JBDS_13_Diabetes_with_psychiatric_disorders_in_inpatient_settings.pdf",
+      "title": "The management of diabetes in adults and children with psychiatric disorders in inpatient settings",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "JBDS",
+      "openai_file_id": "file-UnExuKZNcubwuDEyTBWVAd"
+    },
+    {
+      "filename": "JBDS_14_A_good_inpatient_diabetes_service.pdf",
+      "title": "A good inpatient diabetes service",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "JBDS",
+      "openai_file_id": "file-Ubao8a8RqQX1QeYxEMfxtR"
+    },
+    {
+      "filename": "JBDS_17_Glycaemic_control_in_people_with_cancer.pdf",
+      "title": "The management of glycaemic control in people with cancer",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "JBDS",
+      "openai_file_id": "file-CvbRzTLEoRpG6mmANk4Qfp"
+    },
+    {
+      "filename": "JBDS_18_COVID_virtual_ward_hyperglycaemia_guidance.pdf",
+      "title": "COncise adVice on Inpatient Diabetes (COVID:Diabetes) - Hyperglycaemia",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "JBDS",
+      "openai_file_id": "file-ES3fmZSMizo8ChfeLamDHT"
+    },
+    {
+      "filename": "JBDS_20_Using_technology_to_support_diabetes_care_in_hospital.pdf",
+      "title": "Using Technology to Support Diabetes Care in Hospital",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "JBDS",
+      "openai_file_id": "file-UqW9ZQ1VQxeqLkZwHV1CFJ"
+    },
+    {
+      "filename": "ABCD_PCDOS_Levemir_discontinuation_guidance.pdf",
+      "title": "Discontinuation of Levemir (insulin detemir): Joint guidance from ABCD and PCDO Society",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "ABCD / PCDOS",
+      "openai_file_id": "file-GReKeVmc51oWS9giWtXfDU"
+    },
+    {
+      "filename": "ABCD_PCDS_GLP1_receptor_agonist_national_shortage_guidance.pdf",
+      "title": "Joint ABCD and PCDS guidance: GLP-1 receptor agonist national shortage",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "ABCD / PCDS",
+      "openai_file_id": "file-4xu7YP2hnUB6aNNVmgX2Zh"
+    },
+    {
+      "filename": "ABCD_SGLT2_inhibitors_type_1_diabetes_updated_2019.pdf",
+      "title": "ABCD position statement on the use of sodium-glucose cotransporter-2 inhibitors in type 1 diabetes (updated 2019)",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "ABCD",
+      "openai_file_id": "file-7gE1KusFasHzLxCqucxcJT"
+    },
+    {
+      "filename": "ABCD_UKKA_Finerenone_in_diabetic_kidney_disease.pdf",
+      "title": "Finerenone in the management of Diabetic Kidney Disease: A consensus statement by the Association of British Clinical Diabetologists and UK Kidney Association",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "ABCD / UKKA",
+      "openai_file_id": "file-LKhCRNv3ibzb4EcCFRdPq8"
+    },
+    {
+      "filename": "ABCD_UKKA_Hypertension_and_RAAS_blockade_in_diabetic_kidney_disease.pdf",
+      "title": "ABCD and Renal Association Clinical practice guidelines for management of hypertension and renin-angiotensin-aldosterone system blockade in adults with diabetic kidney disease (DKD)",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "ABCD / UKKA",
+      "openai_file_id": "file-76u8xuKdnDygm7ofivaJZ9"
+    },
+    {
+      "filename": "ABCD_UKKA_Hypertension_in_diabetic_kidney_disease_summary_guideline.pdf",
+      "title": "Management of Hypertension in Patients With Diabetic Kidney Disease: Summary of the Joint Association of British Clinical Diabetologists and UK Kidney Association (ABCD-UKKA) Guideline 2021",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "ABCD / UKKA",
+      "openai_file_id": "file-ErmvMAG6Wp1mg93jTTHuA3"
+    },
+    {
+      "filename": "ABCD_UKKA_Lipids_in_diabetic_kidney_disease.pdf",
+      "title": "Clinical practice guidelines for management of lipids in adults with diabetic kidney disease",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "ABCD / UKKA",
+      "openai_file_id": "file-BRYagSw8srgbRuumcTP64b"
+    },
+    {
+      "filename": "DTN_UK_ABCD_Best_practice_guide_hybrid_closed_loop_therapy.pdf",
+      "title": "Best Practice Guide for hybrid closed-loop therapy",
+      "guideline_level": "national",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "DTN-UK / ABCD",
+      "openai_file_id": "file-TTib3z3LBbH3HPr3iJc9pB"
     },
     {
       "filename": "ADA_2026_Standards_Diabetes_care_in_the_hospital.pdf",
-      "title": "Diabetes Care in the Hospital: Standards of Care in Diabetes\u20142026",
+      "title": "Diabetes Care in the Hospital: Standards of Care in Diabetes 2026",
       "guideline_level": "international",
       "approval_date": "08/12/2025",
-      "review_date": "08/12/2025",
+      "review_date": "",
       "owner": "ADA",
-      "openai_file_id": "file-YRhKSQbALujcHWpaBvhjL9"
+      "openai_file_id": "file-Bq8Uwdn8hwhiGXB5sNG5AQ"
     },
     {
-      "filename": "ADA_EASD_2022_Management_of_hyperglycaemia_type_2_diabetes.pdf",
-      "title": "Management of Hyperglycemia in Type 2 Diabetes, 2022: a consensus report by the ADA and EASD",
+      "filename": "ADA_2026_Standards_Diabetes_in_pregnancy.pdf",
+      "title": "Management of Diabetes in Pregnancy: Standards of Care in Diabetes 2026",
       "guideline_level": "international",
-      "approval_date": "01/11/2022",
+      "approval_date": "08/12/2025",
       "review_date": "",
-      "owner": "ADA / EASD",
-      "openai_file_id": "file-DfZ6zuzQW1YxAYbAfMyvQZ"
+      "owner": "ADA",
+      "openai_file_id": "file-2hjhMn9ZMUWWxZkp5XpHNa"
+    },
+    {
+      "filename": "ADA_2026_Standards_Diabetes_technology.pdf",
+      "title": "Diabetes Technology: Standards of Care in Diabetes 2026",
+      "guideline_level": "international",
+      "approval_date": "08/12/2025",
+      "review_date": "",
+      "owner": "ADA",
+      "openai_file_id": "file-MgzwwpRiJMVPcd4rwinGGV"
+    },
+    {
+      "filename": "ADA_2026_Standards_Diagnosis_and_classification_of_diabetes.pdf",
+      "title": "Diagnosis and Classification of Diabetes: Standards of Care in Diabetes 2026",
+      "guideline_level": "international",
+      "approval_date": "08/12/2025",
+      "review_date": "",
+      "owner": "ADA",
+      "openai_file_id": "file-NCpqGJ4yR9bWtf6kP8QZsG"
+    },
+    {
+      "filename": "ADA_2026_Standards_Pharmacologic_approaches_to_glycemic_treatment.pdf",
+      "title": "Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes 2026",
+      "guideline_level": "international",
+      "approval_date": "08/12/2025",
+      "review_date": "",
+      "owner": "ADA",
+      "openai_file_id": "file-Y9Wk4uKKJuwuJaKjiKtckL"
+    },
+    {
+      "filename": "ADA_2026_Standards_Retinopathy_neuropathy_and_foot_care.pdf",
+      "title": "Retinopathy, Neuropathy, and Foot Care: Standards of Care in Diabetes 2026",
+      "guideline_level": "international",
+      "approval_date": "08/12/2025",
+      "review_date": "",
+      "owner": "ADA",
+      "openai_file_id": "file-1gemPHF167o6hU9D1ccrZC"
     },
     {
       "filename": "ADA_EASD_2021_Management_of_type_1_diabetes_in_adults.pdf",
@@ -932,25 +1436,7 @@
       "approval_date": "",
       "review_date": "",
       "owner": "ADA / EASD",
-      "openai_file_id": "file-XyWxXNeRx3zvZUtUnDynpG"
-    },
-    {
-      "filename": "ADA_EASD_2022_Automated_insulin_delivery.pdf",
-      "title": "Automated Insulin Delivery: Benefits, Challenges, and Recommendations: a consensus report",
-      "guideline_level": "international",
-      "approval_date": "",
-      "review_date": "",
-      "owner": "ADA / EASD",
-      "openai_file_id": "file-82cWGK9yJeF8UuFsCcPGGk"
-    },
-    {
-      "filename": "ADA_EASD_2024_Hyperglycemic_crises_in_adults.pdf",
-      "title": "Hyperglycemic Crises in Adults With Diabetes: a consensus report",
-      "guideline_level": "international",
-      "approval_date": "22/06/2024",
-      "review_date": "",
-      "owner": "ADA / EASD",
-      "openai_file_id": "file-AZfj2ARGpSMgGwnQxsko92"
+      "openai_file_id": "file-7sD3AusJCR1Ej7GDF6HzkT"
     },
     {
       "filename": "ADA_EASD_2021_Remission_type_2_diabetes.pdf",
@@ -959,16 +1445,43 @@
       "approval_date": "30/08/2021",
       "review_date": "",
       "owner": "ADA / EASD",
-      "openai_file_id": "file-8vmpyXh6uCnQvkzSHnd4cr"
+      "openai_file_id": "file-RMBkiKfStYYSNNdvmDV91A"
+    },
+    {
+      "filename": "ADA_EASD_2022_Automated_insulin_delivery.pdf",
+      "title": "Automated Insulin Delivery: Benefits, Challenges, and Recommendations: a consensus report",
+      "guideline_level": "international",
+      "approval_date": "",
+      "review_date": "",
+      "owner": "ADA / EASD",
+      "openai_file_id": "file-MFgUCszwFL7UMsCaJdV7vo"
+    },
+    {
+      "filename": "ADA_EASD_2022_Management_of_hyperglycaemia_type_2_diabetes.pdf",
+      "title": "Management of Hyperglycemia in Type 2 Diabetes, 2022: a consensus report by the ADA and EASD",
+      "guideline_level": "international",
+      "approval_date": "01/11/2022",
+      "review_date": "",
+      "owner": "ADA / EASD",
+      "openai_file_id": "file-Es2Ek5pJSxBnLHEu9wRoJ8"
+    },
+    {
+      "filename": "ADA_EASD_2024_Hyperglycemic_crises_in_adults.pdf",
+      "title": "Hyperglycemic Crises in Adults With Diabetes: a consensus report",
+      "guideline_level": "international",
+      "approval_date": "22/06/2024",
+      "review_date": "",
+      "owner": "ADA / EASD",
+      "openai_file_id": "file-JZ3YkipTWRNYwrJrSJYFZa"
     },
     {
       "filename": "IDF_2025_Global_clinical_practice_recommendations_type_2_diabetes.pdf",
-      "title": "IDF Global Clinical Practice Recommendations for Managing Type 2 Diabetes \u2013 2025",
+      "title": "IDF Global Clinical Practice Recommendations for Managing Type 2 Diabetes 2025",
       "guideline_level": "international",
       "approval_date": "",
       "review_date": "",
       "owner": "IDF",
-      "openai_file_id": "file-GjFpk67Sjn7gc7e24MUDFP"
+      "openai_file_id": "file-UyZ4Ex6Uj7qqtxfEUK89PG"
     },
     {
       "filename": "WHO_HEARTS_D_Diagnosis_and_management_of_type_2_diabetes.pdf",
@@ -977,7 +1490,106 @@
       "approval_date": "",
       "review_date": "",
       "owner": "WHO",
-      "openai_file_id": "file-DycvpMPsstM2KwbHd73gBC"
+      "openai_file_id": "file-SWsa56To8eVBTY8uaYi88Y"
+    },
+    {
+      "filename": "ADA_2026_Standards_Cardiovascular_disease_and_risk_management.pdf",
+      "title": "Cardiovascular Disease and Risk Management: Standards of Care in Diabetes 2026",
+      "guideline_level": "international",
+      "approval_date": "08/12/2025",
+      "review_date": "08/12/2025",
+      "owner": "ADA",
+      "openai_file_id": "file-GF19H558p7zFYSauJHtWn4"
+    },
+    {
+      "filename": "ADA_2026_Standards_Children_and_adolescents.pdf",
+      "title": "Children and Adolescents: Standards of Care in Diabetes 2026",
+      "guideline_level": "international",
+      "approval_date": "08/12/2025",
+      "review_date": "08/12/2025",
+      "owner": "ADA",
+      "openai_file_id": "file-GLwtzTcrnZKEXLWg1QVh8t"
+    },
+    {
+      "filename": "ADA_2026_Standards_Chronic_kidney_disease_and_risk_management.pdf",
+      "title": "Chronic Kidney Disease and Risk Management: Standards of Care in Diabetes 2026",
+      "guideline_level": "international",
+      "approval_date": "08/12/2025",
+      "review_date": "08/12/2025",
+      "owner": "ADA",
+      "openai_file_id": "file-33Lc2Xru5JwAkH6p3FVm41"
+    },
+    {
+      "filename": "ADA_2026_Standards_Comprehensive_medical_evaluation_and_assessment_of_comorbidities.pdf",
+      "title": "Comprehensive Medical Evaluation and Assessment of Comorbidities: Standards of Care in Diabetes 2026",
+      "guideline_level": "international",
+      "approval_date": "08/12/2025",
+      "review_date": "08/12/2025",
+      "owner": "ADA",
+      "openai_file_id": "file-BnrEkm2s3VK3sjjNqQHY6c"
+    },
+    {
+      "filename": "ADA_2026_Standards_Diabetes_advocacy.pdf",
+      "title": "Diabetes Advocacy: Standards of Care in Diabetes 2026",
+      "guideline_level": "international",
+      "approval_date": "08/12/2025",
+      "review_date": "08/12/2025",
+      "owner": "ADA",
+      "openai_file_id": "file-4k7kaa6BnTpYYqzdHkT5n1"
+    },
+    {
+      "filename": "ADA_2026_Standards_Facilitating_positive_health_behaviors_and_well_being.pdf",
+      "title": "Facilitating Positive Health Behaviors and Well-being to Improve Health Outcomes: Standards of Care in Diabetes 2026",
+      "guideline_level": "international",
+      "approval_date": "08/12/2025",
+      "review_date": "08/12/2025",
+      "owner": "ADA",
+      "openai_file_id": "file-6S7H6BP1rAbvzcyTh9KJuR"
+    },
+    {
+      "filename": "ADA_2026_Standards_Glycemic_goals_hypoglycemia_and_hyperglycemic_crises.pdf",
+      "title": "Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises: Standards of Care in Diabetes 2026",
+      "guideline_level": "international",
+      "approval_date": "08/12/2025",
+      "review_date": "08/12/2025",
+      "owner": "ADA",
+      "openai_file_id": "file-6vtFfD5dk2gb7strnZ1SEo"
+    },
+    {
+      "filename": "ADA_2026_Standards_Improving_care_and_promoting_health_in_populations.pdf",
+      "title": "Improving Care and Promoting Health in Populations: Standards of Care in Diabetes 2026",
+      "guideline_level": "international",
+      "approval_date": "08/12/2025",
+      "review_date": "08/12/2025",
+      "owner": "ADA",
+      "openai_file_id": "file-FGvo5RnPjox8StQ8DzjGLi"
+    },
+    {
+      "filename": "ADA_2026_Standards_Obesity_and_weight_management_for_prevention_and_treatment_of_type_2_diabetes.pdf",
+      "title": "Obesity and Weight Management for the Prevention and Treatment of Type 2 Diabetes: Standards of Care in Diabetes 2026",
+      "guideline_level": "international",
+      "approval_date": "08/12/2025",
+      "review_date": "08/12/2025",
+      "owner": "ADA",
+      "openai_file_id": "file-LH7uCPMZWwD2hsXZBsiJ5Y"
+    },
+    {
+      "filename": "ADA_2026_Standards_Older_adults.pdf",
+      "title": "Older Adults: Standards of Care in Diabetes 2026",
+      "guideline_level": "international",
+      "approval_date": "08/12/2025",
+      "review_date": "08/12/2025",
+      "owner": "ADA",
+      "openai_file_id": "file-KvzN8LrKBFftuwsHYBnQg8"
+    },
+    {
+      "filename": "ADA_2026_Standards_Prevention_or_delay_of_diabetes_and_associated_comorbidities.pdf",
+      "title": "Prevention or Delay of Diabetes and Associated Comorbidities: Standards of Care in Diabetes 2026",
+      "guideline_level": "international",
+      "approval_date": "08/12/2025",
+      "review_date": "08/12/2025",
+      "owner": "ADA",
+      "openai_file_id": "file-SgoCty1YdPggZG7rp5X9Dg"
     }
   ]
 }

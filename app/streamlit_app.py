@@ -1,3 +1,5 @@
+import base64
+import html
 import json
 import re
 from pathlib import Path
@@ -14,6 +16,31 @@ client = OpenAI()
 ROOT = Path(__file__).resolve().parents[1]
 VECTOR_INFO = ROOT / "ingestion" / "vector_store_info.json"
 METADATA_CSV = ROOT / "metadata" / "guidelines.csv"
+
+LOGO_CANDIDATES = [
+    Path("/mnt/data/sally_sal9000_logo.svg"),
+    ROOT / "app" / "assets" / "sally_sal9000_logo.svg",
+    Path(__file__).resolve().parent / "assets" / "sally_sal9000_logo.svg",
+]
+
+def get_logo_path() -> Path | None:
+    for candidate in LOGO_CANDIDATES:
+        if candidate.exists():
+            return candidate
+    return None
+
+
+def get_logo_data_uri() -> str | None:
+    logo_path = get_logo_path()
+    if logo_path is None:
+        return None
+    encoded = base64.b64encode(logo_path.read_bytes()).decode("ascii")
+    return f"data:image/svg+xml;base64,{encoded}"
+
+
+def get_page_icon_value():
+    logo_path = get_logo_path()
+    return str(logo_path) if logo_path else "🔴"
 
 # Update this if your repository name changes.
 GITHUB_REPO_OWNER = "mcgovernandy"
@@ -173,10 +200,10 @@ def make_guideline_label(source_value: str) -> str:
         return source_value
     title = str(record.get("title", "")).strip() or str(record.get("filename", "")).strip()
     approval_date = str(record.get("approval_date", "")).strip()
-    level = str(record.get("guideline_level", "")).strip().title()
+    owner = str(record.get("owner", "")).strip() or str(record.get("guideline_level", "")).strip().title()
     suffix = []
-    if level:
-        suffix.append(level)
+    if owner:
+        suffix.append(owner)
     if approval_date:
         suffix.append(approval_date)
     if suffix:
@@ -315,43 +342,64 @@ def clean_fragment(text: str) -> str:
 
 
 def render_quote_context(item: dict):
-    before = clean_fragment(item.get("context_before", ""))
-    quote = clean_fragment(item.get("quote", ""))
-    after = clean_fragment(item.get("context_after", ""))
+    st.markdown(render_quote_context_html(item), unsafe_allow_html=True)
 
-    html = "<div class='quote-context'>"
+
+def render_quote_context_html(item: dict) -> str:
+    before = html.escape(clean_fragment(item.get("context_before", "")))
+    quote = html.escape(clean_fragment(item.get("quote", "")))
+    after = html.escape(clean_fragment(item.get("context_after", "")))
+
+    parts = ["<div class='quote-context'>"]
     if before:
-        html += f"<span class='muted'>{before} </span>"
+        parts.append(f"<span class='muted'>{before} </span>")
     if quote:
-        html += f"<span class='quote-highlight'>“{quote}”</span>"
+        parts.append(f"<span class='quote-highlight'>“{quote}”</span>")
     if after:
-        html += f" <span class='muted'>{after}</span>"
-    html += "</div>"
-    st.markdown(html, unsafe_allow_html=True)
+        parts.append(f" <span class='muted'>{after}</span>")
+    parts.append("</div>")
+    return "".join(parts)
+
+
+def format_reference_summary(item: dict) -> str:
+    label = make_guideline_label(item.get("source", ""))
+    level = str(item.get("level", "")).title()
+    section = item.get("section_heading", "Not clearly identified")
+    return f"[{item['number']}] {label}, Hierarchy: {level}, Section: {section}"
 
 
 def render_recommendation_card(rec: dict, level: str):
     source = rec.get("source", "")
-    source_label = make_guideline_label(source)
+    source_label = html.escape(make_guideline_label(source))
     source_url = make_raw_github_url(source)
+    section = html.escape(rec.get("section_heading", "Not clearly identified"))
+    advice = html.escape(rec.get("answer", ""))
+    notes = html.escape(rec.get("notes", ""))
 
-    st.markdown("<div class='recommendation-card'>", unsafe_allow_html=True)
-    if source_url:
-        st.markdown(f"**Source:** [{source_label}]({source_url})")
-    else:
-        st.markdown(f"**Source:** {source_label}")
-    st.markdown(f"**Section:** {rec.get('section_heading', 'Not clearly identified')}")
-    st.markdown(f"**Advice:** {rec.get('answer', '')}")
-    st.markdown(f"**Needs direct review of full text:** {'Yes' if rec.get('follow_up_needed') else 'No'}")
-    if rec.get("notes"):
-        st.markdown(f"**Notes:** {rec['notes']}")
+    source_html = (
+        f"<a href='{html.escape(source_url, quote=True)}' target='_blank'>{source_label}</a>"
+        if source_url else source_label
+    )
 
+    evidence_html = ""
     evidence = rec.get("evidence", [])
     if evidence:
-        st.markdown("**Quoted text**")
-        for ev in evidence:
-            render_quote_context(ev)
-    st.markdown("</div>", unsafe_allow_html=True)
+        evidence_html = "<div><strong>Quoted text</strong></div>" + "".join(
+            render_quote_context_html(ev) for ev in evidence
+        )
+
+    notes_html = f"<div><strong>Notes:</strong> {notes}</div>" if notes else ""
+
+    card_html = f"""
+    <div class='recommendation-card'>
+        <div><strong>Source:</strong> {source_html}</div>
+        <div><strong>Section:</strong> {section}</div>
+        <div><strong>Advice:</strong> {advice}</div>
+        {notes_html}
+        {evidence_html}
+    </div>
+    """
+    st.markdown(card_html, unsafe_allow_html=True)
 
 
 def render_level_column(level: str, result: dict):
@@ -375,7 +423,7 @@ def render_level_column(level: str, result: dict):
         st.caption(result["overall_notes"])
 
 
-st.set_page_config(page_title="Sally", page_icon="🔴", layout="wide")
+st.set_page_config(page_title="Sally", page_icon=get_page_icon_value(), layout="wide")
 
 st.markdown(
     """
@@ -403,13 +451,13 @@ st.markdown(
         gap:0.9rem;
         margin-bottom:0.5rem;
     }
-    .logo-lens {
-        width:56px;
-        height:56px;
-        border-radius:50%;
-        background: radial-gradient(circle at 50% 50%, #ff7a7a 0%, #e11d48 32%, #7f1d1d 66%, #0b1220 100%);
-        box-shadow: 0 0 0 6px rgba(59,130,246,0.22), 0 0 18px rgba(239,68,68,0.65);
-        border: 4px solid #60a5fa;
+    .logo-img {
+        width:72px;
+        max-width:72px;
+        height:auto;
+        display:block;
+        filter: drop-shadow(0 0 12px rgba(239,68,68,0.35));
+        flex-shrink: 0;
     }
     .recommendation-card {
         background: #0f172a;
@@ -455,11 +503,14 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+logo_data_uri = get_logo_data_uri()
+logo_html = f"<img src='{logo_data_uri}' class='logo-img' alt='Sally logo' />" if logo_data_uri else ""
+
 st.markdown(
-    """
+    f"""
     <div class='hero'>
       <div class='logo-wrap'>
-        <div class='logo-lens'></div>
+        {logo_html}
         <div>
           <div class='hero-title'>Sally</div>
           <div class='hero-sub'>SAL 9000 · Diabetes guideline assistant with hierarchy-aware evidence synthesis</div>
@@ -538,6 +589,29 @@ if ask_button:
                 if synthesis.get("clinical_caveat"):
                     st.info(synthesis["clinical_caveat"])
 
+
+                st.subheader("References")
+                if evidence_items:
+                    for item in evidence_items:
+                        url = make_raw_github_url(item["source"])
+                        summary = html.escape(format_reference_summary(item))
+                        if url:
+                            summary_html = (
+                                f"<a href='{html.escape(url, quote=True)}' target='_blank'>{summary}</a>"
+                            )
+                        else:
+                            summary_html = summary
+
+                        citation_html = f"""
+                        <div class='citation-card' id='ref-{item['number']}'>
+                            <div>{summary_html}</div>
+                            {render_quote_context_html(item)}
+                        </div>
+                        """
+                        st.markdown(citation_html, unsafe_allow_html=True)
+                else:
+                    st.write("No references were returned.")
+
                 st.subheader("Guidance by hierarchy level")
                 col1, col2, col3 = st.columns(3)
                 with col1:
@@ -546,24 +620,7 @@ if ask_button:
                     render_level_column("national", level_results.get("national", {}))
                 with col3:
                     render_level_column("international", level_results.get("international", {}))
-
-                st.subheader("References")
-                if evidence_items:
-                    for item in evidence_items:
-                        url = make_raw_github_url(item["source"])
-                        label = make_guideline_label(item["source"])
-                        st.markdown(f"<div class='citation-card' id='ref-{item['number']}'>", unsafe_allow_html=True)
-                        if url:
-                            st.markdown(f"**[{item['number']}] [{label}]({url})**")
-                        else:
-                            st.markdown(f"**[{item['number']}] {label}**")
-                        st.markdown(f"**Hierarchy:** {item['level'].title()}")
-                        st.markdown(f"**Section:** {item['section_heading']}")
-                        render_quote_context(item)
-                        st.markdown("</div>", unsafe_allow_html=True)
-                else:
-                    st.write("No references were returned.")
-
+                    
                 disclaimer = synthesis.get("disclaimer") or (
                     "Sally is an AI guideline assistant and not a substitute for direct review of the original guideline, "
                     "full clinical context, or specialist judgement."
@@ -576,3 +633,6 @@ if ask_button:
             except Exception as e:
                 st.error("API call failed.")
                 st.code(str(e))
+
+
+
